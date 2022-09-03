@@ -16,9 +16,7 @@
         <link rel="stylesheet" href="/css/particlex.css">
         
         <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
-    <meta name="generator" content="Hexo 6.2.0"></head>
-    <body>
-	<div id="L2dCanvas"></div>
+		<div id="L2dCanvas"></div>
 		<script src="/js/live2d.min.js"></script>
 		<script src="/css/live2d.css"></script>
 		<script>
@@ -40,6 +38,14 @@
 		<div id="cursor"></div>
 		<script src="/css/cursor.css"></script>
 		<script src="/js/cursor.js"></script>
+		<canvas
+			id="fireworks"
+			style="position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:2147483647"
+		></canvas>
+		<script src="/js/fireworks.js"></script>
+    <meta name="generator" content="Hexo 6.2.0"></head>
+    <body>
+	
         <div id="loading" style="height:100vh;width:100vw;position:fixed;display:flex;z-index:200;justify-content:space-between;background:#fff;transition:opacity 0.3s ease-out"><div style="position:fixed;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center"><div id="loadcontent" style="width:50vmin;height:50vmin;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px #a3ddfb;text-align:center"><div><h2>LOADING...</h2><p style="word-break:keep-all">加载过慢请开启缓存(浏览器默认开启)</p><div><img alt="loading" src="/loading.gif"></div></div></div></div></div>
         <div id="layout">
             <i data-fa-symbol="calendar-solid" class="fa-solid fa-calendar fa-fw"></i>
@@ -147,9 +153,37 @@
     <div class="timeline">
         <div class="timeline-tail"></div>
         <div class="timeline-content">
+            <div class="item-time">2022/9/3</div>
+            <a href="/2022/09/03/YOLO-RDD/">
+                <h3>YOLO-RDD</h3>
+            </a>
+            <div class="info">
+                
+                
+                <span class="tags">
+                    <span class="icon">
+                        <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+                    </span>
+                    
+                    <span class="tag">
+                        
+                        <a href="/tags/深度学习/" style="color: #00bcd4">
+                            深度学习
+                        </a>
+                    </span>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="timeline">
+        <div class="timeline-tail"></div>
+        <div class="timeline-content">
             <div class="item-time">2022/9/2</div>
             <a href="/2022/09/02/hello-world/">
-                <h3>Hello World LiNing</h3>
+                <h3>Hello LiNing</h3>
             </a>
             <div class="info">
                 
