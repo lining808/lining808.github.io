@@ -1,0 +1,1921 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 leida.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.93568in" height="3.08568in"
+		viewBox="0 0 283.369 222.169" xml:space="preserve" color-interpolation-filters="sRGB" class="st2">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Rectangle)"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-width:0.25}
+		.st2 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(117.439,-104.432)">
+			<title>工作表.2</title>
+			<rect v:rectContext="foreign" x="0" y="208.365" width="47.9906" height="13.8047" class="st1"/>
+			<switch>
+				<foreignObject x="0" y="208.365" width="47.9906" height="13.8047"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:dataType="ole" v:type="49664" v:orgSize="29890" v:data="data:metafile;base64,eNrsu2OQbdu6pZ
+								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
+								Am"/>
+				</foreignObject>
+				<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+				<svg viewBox="0 0 80.986 23.994" height="13.8047" preserveAspectRatio="none" width="47.9906" x="0" y="208.365">
+					<clipPath id="mfid1">
+						<rect width="80.986" height="23.994" id="mfid2"/>
+					</clipPath>
+					<g clip-path="url(#mfid1)">
+						<!-- GetDC -->
+						<mask id="mfid3" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid4" fill-rule="evenodd">
+							<g>
+								<rect width="81" height="24" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<mask id="mfid5" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid6" fill-rule="evenodd">
+							<g>
+								<rect width="81" height="24" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<mask id="mfid7" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="1" width="80" height="23" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<mask id="mfid8" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="1" width="80" height="23" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<mask id="mfid9" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="1" width="80" height="23" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid9)">
+							<g fill-rule="evenodd" stroke="none" fill="#5b9bd5">
+								<rect width="173" height="24" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#ddebf7">
+								<rect y="23" width="173" height="24" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#ddebf7">
+								<g font-family="&#39;I縹&#39;" font-style="normal" font-weight="700" font-size="18">
+									<text stroke="none" fill="#ffffff" baseline-shift="-72.2%" x="0,18,28" y="0"
+											transform="translate(4,4)" xml:space="preserve">列1</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid10" fill-rule="evenodd">
+							<g>
+								<rect width="81" height="24" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid10)">
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect width="1" height="0" stroke="none"/>
+								<rect x="80" width="1" height="0" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#9bc2e6" stroke-miterlimit="10" fill="#9bc2e6">
+								<path fill="none" d="M0,0 L0,25"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#9bc2e6">
+								<rect width="1" height="25" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#9bc2e6" stroke-miterlimit="10" fill="#9bc2e6">
+								<path fill="none" d="M1,0 L82,0"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#9bc2e6">
+								<rect x="1" width="81" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#9bc2e6" stroke-miterlimit="10" fill="#9bc2e6">
+								<path fill="none" d="M1,23 L82,23"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#9bc2e6">
+								<rect x="1" y="23" width="81" height="1" stroke="none"/>
+							</g>
+						</g>
+						<mask id="mfid11" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="1" width="80" height="23" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid11)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<clipPath id="mfid12">
+									<rect x="59" y="1" width="21" height="21"/>
+								</clipPath>
+								<image x="59" y="1" width="21" height="23" clip-path="url(#mfid12)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAXCAYAAADk3wSdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADMSURBVEhLrcxNCwFRFMZxH5MsJDFRkpQkmYiync3sZmtl5/NYWFli3t+vO1Oe0XSxeW79Fufc079xPJ0FWxllPkTzPKdBNJMDSxXN5IIE0TTNaBBN5MCCaJykNIhGcUqDaBglStv9AfTNTixXupjNF2I8mSrvC4gGYfLVuhYbaCPl3Ruifhj/VMT62lB0uj3l/ydEvSD+q9lqK/d1iLp+RIOo40U0iNpuSIPoUw4siD6cgKaK2nJBguhdDiyIsjUM0xJsZfRyvdEYpiVe0sDhLvxyaA4AAAAASUVORK5CYII="/>
+								<clipPath id="mfid13">
+									<rect x="151" y="1" width="21" height="21"/>
+								</clipPath>
+								<image x="151" y="1" width="21" height="23" clip-path="url(#mfid13)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAXCAYAAADk3wSdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADMSURBVEhLrcxNCwFRFMZxH5MsJDFRkpQkmYiync3sZmtl5/NYWFli3t+vO1Oe0XSxeW79Fufc079xPJ0FWxllPkTzPKdBNJMDSxXN5IIE0TTNaBBN5MCCaJykNIhGcUqDaBglStv9AfTNTixXupjNF2I8mSrvC4gGYfLVuhYbaCPl3Ruifhj/VMT62lB0uj3l/ydEvSD+q9lqK/d1iLp+RIOo40U0iNpuSIPoUw4siD6cgKaK2nJBguhdDiyIsjUM0xJsZfRyvdEYpiVe0sDhLvxyaA4AAAAASUVORK5CYII="/>
+							</g>
+						</g>
+						<mask id="mfid14" fill-rule="evenodd">
+							<g mask="url(#mfid11)">
+								<rect x="1" y="1" width="80" height="23" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<!-- Released DC -->
+						<!-- GetDC -->
+						<!-- Released DC -->
+						<mask id="mfid15">
+							<rect x="1" y="1" width="80" height="23" fill="white" stroke="none"/>
+						</mask>
+						<mask id="mfid16" fill="white" stroke="none">
+							<g>
+								<g mask="url(#mfid15)">
+									<use xlink:href="#mfid2"/>
+								</g>
+							</g>
+						</mask>
+						<!-- GetDC -->
+						<mask id="mfid17" fill-rule="evenodd" fill="white" stroke="none"/>
+						<!-- Released DC -->
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="208.365" width="47.9906" height="13.8047" class="st1"/>
+		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(3.33464,-1.52047)">
+			<title>工作表.3</title>
+			<rect v:rectContext="foreign" x="0" y="4.35512" width="277.2" height="217.814" class="st1"/>
+			<switch>
+				<foreignObject x="0" y="4.35512" width="277.2" height="217.814"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:dataType="ole" v:type="33280" v:orgSize="36526" clip="rect(0 0 0 0)" v:data="data:metafile;base64,
+								eNrsvGV4W2uyJmpmppjZMTPHzIyx49iOKWZmZpKZKcaYmTFmZmaQmVlmO8bJ3rtPn+476Tnn3l93Znr9WPqWpOeR3qq36qt6
+								V0nKcpBQWGAwYHBgYGBkYAG3nj+RIMDAyFHAwDDB4CC0xWxtnIxtnPTU3O2MHXWY3KytSHOhIGiywX696d/H/83HWMpk9CwL
+								2gBIuk1sl95iVQdNtPiI+MExKMnFHWwxi+sTJvDKzRXYZLptgqjVMBcWuDlTr8DfafscdTa2bbLI1U/hNregdlqaUQcRWS+b
+								rtDvs+qb6a0PDWOQaFbuH34Gvjx+dVvW/7IOjsOxot9/jLYqNaGyMIXAUAEp5rqw0EQ+pdS5pThUsQTWmTW54WiuAIZpkhPR
+								nRwxWY2DqkDTcXoICoxP4ip/cHKrFFOX51k0o4WA34uRbPcbO/WooKKhJ9FC0Mm9JsVaAMuxlj3gRH8hChIOI9uhTiXGJ4Q5
+								q6MzN8ICNLg8AFSFxA7PMyZLSe4zTy+0ROzpvR7ea41kgvBfjV5cjM8anx1jcz5iFhVbBXNNtkxeGCs4bM8O7exZfKXqBBNL
+								+vLGLbv+Sk+l4/ys4Bh9yeyGaQYLRix0fUIBaAbrq7YFK9LFYj2kYmOEU3b1v0se34XwifEWCbnaLknoemL+eb0OK6sF4GcC
+								Dn+r1xz0Mz8180Fo7X/14xGP2cGYrYu65Qkg2+mqjIV5TOlMR763ZduHe1Ndan6N0o+8Y35Dwj3fMBpDfy2odnwh6MY922g9
+								7aUc7yT95ORw6Zb6qEMHQ1Ttq5R8HfooY3CwMAknqfWi3Gt/UiF2bM6PxJxxAJNLIOCIBec1ZWdFptgeThI2h2asQedElALh
+								HDBuGNL0DA8G9vYGCab8T0mkQZ2F4ubXSv5XjkD8lUT0HIytHJmZ/jj/O3n8+/jjKI9XUOplQQKApJ9Dhu7n12LRROVcRaRb
+								ydR8/GRWURui8igJ1jqpCdHU8AMhpXzbfZ5HgGv8UcdDZHfbHOURGFh8FI2uFYCUR3tnWLr3DsmS9uVbfegu87fzd6lSsu40
+								Lu0xdGU/inPkhjcoJGcvxWvQJpk08OExCwgBOAKp/loDCprrXx8qwedFP55VAKqbuLOPEybTfReTC4+QhUJ55U9nUrGHHL+a
+								Lld6DVmR3f7EV/9oxmte/TXL4QO5u56RVde1eHon5osXo2LGkCo5B8YD26TUIFX2ra9WPcflaKZ7Hzd8b9nQxXBABEnxOvjv
+								giR5PS0M89crplBgYPhgcOBuVsx/xYmrrYPlV1tbyz/22v+IGfBfMQP+fztn2hIVLP/kTOALbN7TNuVaC+vxDRtMu80aKkv0
+								lQgm3+cVqdcXedxhNlkX+HZcyq1771gq0J2eNYXg1Mez8gDKcJFsTqYq65LNsweva7CAz8Av3BO5AcTwd8u38+fQBONbGOrO
+								UuTFn1WVWV1jVONLquexmlGsi7EmmtLEDuWWzR1nqEY4optm3hb8rAppUZohfIe4SaO932W8LbpIqBB4Oey3S4yaMuSX1JuW
+								ovEWW+iR039zoAyZeY8wRjq5s1oVJgYOe61xlwPkQB+fkWM56vdMYNqifDcok2zXWCaIfa+A+2JvYRaacgpaqD+oVuZpRs0h
+								nOjHWa0cvjh6Ppo8jyz5Po9nsHvqOdTxW0rhvsUgl/xKrZwwYGCov575Ral/JFO5moLtNgtae1X9G9mVQFQm80yochJGvfQa
+								9ooL0HDvPeAzpb0RAVzp44YrIX72nqozNwTwUj5rIx1v8qK0QtayN387VxGtuWvoq/N7B11mzJsDHwupIdW0BV5GiXGMekME
+								nagOXwKb4C8CiDW1YNmf4Onqbb4Oqmh205UyifdaVDMElRcDNJqd1CjwxtW7v1XKDvbzONGNWNZLhe6ZsvR97WbnQl9u+dqw
+								Hij9SRX5Rr2bYD5Pfdl0k45O42RgQnwerI+duXndOXuotNatsTw4f5JqyEZGvwHDh+wZHtB9pgQxu6yCPZmv/DWHGWxlOUFw
+								VqlabKgVrf6A9YEwHiTduPU+BPYT2zN52YUfNnE33KspB0TB/LwsUvcTuZbd5n7utF233F01s04E1zizVqp80hBdyYz5BOco
+								JoefRo3xILIy1eK427hcdYvbpsFuJMoefwpOl8X7g3hbs8ZAPoOxisgnuMmGen2B9NUeWlcnSNOA2ucKSlMw2baiDwn2QcOz
+								EQQA2rDCpSzdDTSgEvVHzwzdlru5iEpIDHdi4qAqNFy8gdRsS502eLZN+Ct5BME0n5nGJjTCKncfyquADWLgGAlg/c4CKrXs
+								qWv5E1FBukaZ964zU2Nm4dqwB9Ba6OrLO1I02MqY8pd11IEUaLso0Q2jzy0A1YB1ldTTEvmtmvGL6HDHnoITlK6S9IqW0UMF
+								kQLAycJZ6kMa0sA+Eu9o62mGewImaLMPyDkz2daOaRvr3HUn6LGRuu4cjnwS2GTblqkrLDmKZDEsD3DQMCyfb5KNAbBoWw6T
+								SfYNLkJ6HQF5biGAMdks5BuOZwS+24XdpJn5O11qIeY1l29mHMrDlKFP69ZwaZvrcmkV2TtvJhGs6spTOmpEm/DhHguKb/OH
+								zGC/YzVNTRQEF/SvdgQDDAz3P1ntaGZs7OTI/OcD6x/0zvi85pDHhdUBkt/w31qHsWLZrGmvA98Zl08f7ztz8WjI01/+BBmK
+								sKw4c/TS0S1osJEnpV9doL/QmhVEcpmpJLXBK/1Bfl2gKKxxsJyUI/3408YcZ0a/k0TtuNrbS1PxwZFWt0qjKPz4hZpvd/Cr
+								zd21UgKksVI/jmEluNgn+VvGg59LLOFuER/Vbsyj2d1qCxkkCG2WB2gcANOlHLKYhvppFBQSlLP0ANZWQGDlIuUAWZQr7YSb
+								RI9dAM+DnpWM7pyVuReyTvjSLBOon2PcfzuOMqgzMb8leWAHqCCJ5yGvvzqZHPX1LLV7A+w1xJnb+Ck9SxWDXWuKEwRZp/Lz
+								2eWhY4uAxubbevQbHf4oF+46JnoX5vzm4JfaDIClHTnBK+lyMRmmQ81ldHnho9D+5WJgHRXK/pGy0JPGd4VPUOQMkgWsbVnH
+								oIrLnsWo5fyx70pQJOF1lmdJM054FOh0oyGUNucgcYj3g5/i6mMSBeGvte0GgnwQMjY/58cANusHwRXBiLVIhS9dlxt+AKKj
+								Cg+uT1YiiuVvPAsrLvDPMF6FUUlYlq14nQROe7XVTEbcbjG2yQFzwRNPkFIXAxzgGDwWtOgg0nxiD6ZJ2NptYMn5rYDtrlbW
+								SajrZQHhznQ1G7iGHCYPiQIDaQoSKcRl5SbHS952PSWEmxZGJH5AsmBIAVxSUwEW2bYZl8FNtshxAFAiuk9cP2pNLi/YAOHU
+								E5xJQRgmnoqyV26CFAcqaLPurcOr4T0MbFJ/OzpJhQ0d/UXD/PFkTKfXKt8kI0CkySAIITr1bgrx/FyrvNfmZI/NijXNlUBA
+								X5HNKcQ9wnzO+gMzdVdkyLf7HpWIl1ztL2QfQWRqGVyk4Qo0Evt6RLLgWcd2VsgjIZOsYpcftTnoxQhyO76nem/UPV9/52a9
+								M61BxbpB+xRT950iTwzaGoXqRlhyUr1+rCKbAtoalbITWwmngX9Q5VEM/ow7SxrcD6tTEAzCixfsOxNsNpsVBMtFCyUyVr2x
+								zGEOBhi09aPOYXPkHWnZpCFJiVFtnuxihFZM3jZk88lHL8r+M5DKFz9meuIuJsrBssbEKiSCfkZexiR/KLaV68xKShTsekT2
+								w+ZQx73mHZd2m7iRwiAjFTnloltozf4A51t58q4U4xdsF4tqWuuEBrZy49u5HNiR65znAToxRPV6fmbaw+aARkmdOpH8bOtU
+								YJJYYzF0ifgd4ZPoUL48gOrZYxj6oXb3etJXJb6hQoU7yYDx51CyHpvxCBJWPd9xRptx/c6PP769CyNvFbYMRX9CDqM9PWgs
+								N7kIwe9k6WyW08q1MuWLH18toWnujcXo1chFve5IqouWzAjRp+xsa00c5/bE6SxmWGkdZmybOkfBaKwbaV3w+YyqvZ8DfeSl
+								M2XUOOAdDD8F9rTTNnMVrkdqUzUJixxjcrOTMv3ZZpQlWzvKt2nnR9wmsG2MpfL62FWnKuOJIrTibItPfWNGIBjUcLCjlnY3
+								1JBdZtGKkXNWWDQIyBvAZYWn5TS51Wd11ZPUC6Q7gm2xMvqUgyvMBySCYdMNXuPF1L9N+5kMohL1FBBas5TTEsRjawUsGgvA
+								DA+Wxo+f9nIWNRfPiC/fSvPOKd6u4Qga6uPmLoeMD6Sp0pCUplOAMK51KvdoBn+lhRzHizQ2CHW9n5lfSw8S7QFwiw2M9Z0B
+								VTTwjhDnPesf320Y6mOpYhJEbKeuVY70WPdPgRfCV5gzGh9sf+wX+No29bUFk6oQuvWk8Daokq4Zk5BrZfwgY/ntt7kW3zBu
+								r/3Xiv5XfUH5V641NDNwcPpbsv2rQP3zgv3v5WlQzDgCBCtSECgApOzQpIMtbtSqK35BdwIZxPUU2GptfrwBBI4GBGwyJsTa
+								moy8OBL2ZZLfr5t/HoGA4t2xBmkhpzz+WArYDJrY3iQyd0Pv7UibHGFH/naF6eqtH0cbzelEG5ypavUBP64Adfeq4NK+L9HY
+								Sl3YsT95rpSGi86HLfvxa3jCPJqSC3yuT/Dp8/ez9EJup4t9rng5IYbEqIehcTYMQzmZwMTZ6CIDRkcjZfWSDrpPtr+FLwBT
+								b/Tfg8/2T/B7WND+gI92Z6PqiRZX2B66qX4MyTB8BwukNNrZAKZHZJO6AZeNO1NL0gb5wwgkiNtnq5Oh4RwGgNO3+BNnBg3Q
+								3fCZ/cN8MxeUgEJdplJMhV/wUQ3/hI/0J3yYtL/gX9sPJBqf/oLfnaWmiUWALYSn7MvaP20RKtUKMy0o5vI6eafDjb/i6Zg5
+								XECCMyLZdmCCF1ZTlC8ych+9IUb7C75zQQfdwu93WuyqUv7/HnzWfwF/xuMX/D+8fwuebPQUaI1Re1lka8v0y/vWpikvJoUr
+								QkUqq7RXm5kAVRzSITxb2EXzHxyD8zhQ1E44UiDpXnmkJ4/m4gmOryNKq6j+EoU8C1NFWC6yNUfmosmCsaMpC4PwH5NrPoKP
+								Y/OpnuQuFT8M+z1G0Cp+EuNfxhBnD/nD+0AXlj+8H/cP3pf65X0QUWeI6v5Q9rGst3q53m/hc+VicPr/gt7/q4TG+5/h/6ff
+								I+P/LKQBIPpboc8d1IoP0ubiwhEIGCFJd1PnazyKX9E9c2to69XfnlD8rTS2e6wHdtxNdJ8ymZUajW3x28E1LjgUeWYVRcy/
+								6Fwspihw7IzBHskuB8xC+y5mMb9DFdovjcP1ynPWD7Lr2FSA02EK0ohqnBmcMpdKQpgaEaZd6HEtNl7mXv4UGU+J+Ql/kDmI
+								EGQgrI5X8F2EqNxlC0JkbUQYwsvwg9BUeQusKdU5qk5+l0vQUupC0D3xSKr6z0YXP4fF+AvMWsxo2IcjFw1LrIAQuj4ozBRO
+								W6wiTP/H8Qy9JwLODs0bwU93Mc7riNeBtIivPxMFBBU0hDRU0irrzGrTovI0uXyiF8y5Uk1OjqwSIjsevq779tpiLR7GTEu9
+								6Y1F+z0Rdb1+WcL4lnEJrq+nbwjBG/wx7xBvcUJx4TGlb4VnUktnOpPSZxdJYQ3J3q9SKNOhMRCtC0VTrHHqJl9GXpbOj4WS
+								I1/cnZKbbWzyyk5bV9L3yfby3e/8pqXoI+b3X/iN/T/8BvyjgYR8JIFas+YlUdSiUFSph4vt9SNqWcdObQz+nCtCq9Bi8OYd
+								+bEK0mE4Kr9PyqvE9dbNIdMNFgHHm5ba/D20W2DSrQKtb4dNvCet6FzHDJEHzR4s1M8fHU+NbBWFuFp+NLhbYrRA3CfREn0t
+								uw/5S4EHCfjDR0O0nHQ3UC34aV+KCjUblRW1mZmDAmwM9HW0IZnNUFC82oThPhBpCptZk0imsTdtZhS+5CghtWSh8wGXH1iF
+								C+wKl7iIZUAfcHzI7XOX4YR0Jo/LyZA+DyYaHLPtJ20Pf0FvA143dirXlYnYGjK+1kw4qthXq9P6ThYlMHy34Rpm0J6Id3+9
+								iV89QEWV6di82v5pnnqwTNKsi7xxEThnemOyhfsa0Y9u3im2+h21EcnE9FnUqepHTVwmebMKcuTkhC73hc5HQ280ojkvarkU
+								1VjrFdboJdT5L+FEA6E2Y1qN0BeydYlJc6H28g9x4TdxazTFPKN51s7uj6O+J52/DTdCrKLil18rG0gwMOx/dBuzoa2VrYMj
+								xx8uy08QsfmVXiSqMH6C2WOQVpD3FJ6EQ1PjKlh9Hb4jBRbYeWYom4mRYXTzPZ10/vSlZJ7WkE5bfU/YII0iCXzYtFwAVJfx
+								3C8hQApyIhC5x5NJsGXkq9G47WxqLzMy17ZtLgUgCgS/6G+SBLv0DKDHZ/hvfnQAIvYeSg/L2ghrJuOir6RtoTfoh1lYJJta
+								NQSVKlEI1svdZVvChPYAMi5DtFhzxyXrf4Y24k6PKEbQrwV+RMNaTrd8p+abqmQxgTzCkDXR+5YGCNWefOqfzVtQzVKx955V
+								UYrslCSO/q6E2/lt0711w+cO4TjsbnGo9y4mzWl3A9Tw4bfdPcgOcjQM6lcP9B4MDOuf7OXo5G5l/Ke5TrVOHFY+oPlgxxCT
+								7qti9ASN5Q87FbLvcszOpr7iNCJZGA9LYVDtHk3KdujjpQtDQpm95TTE1W9UduicPb5XDtQPL3jVYMa9zDIcEMkGmJU6s114
+								Y8vLRM5LyEPSJobeSJB+1RNHRw4lkeUv8tp21TqL7syANp7dTNIUF+VhQIfHM6xgCsrYdexDMjHXeWQtJHTnIMy1eUJYW++6
+								u2BX3yg26YvGfZMld9tyD9UaasoNZWskp1QRh2h/rNyUM5Bvjq2GI/7MOSyQsM48BpAWaqr4Nr4thV5YO6pbZqzRB4nmG5ar
+								tjre72OeDCQg4SIusFwWAFA+PlIK3LKJW7PH3CdIo3SKmOcFu6/Ns3elyQd9WfW/Kyr/IZuVL/LN3lZQfLFdEdUdXBFA8/Vz
+								7yQPuDa9oAixCaYw5VSqBFTeFnX1KWDffDG9aEOfmOWTOzitCT+HCwuBwnicDeGpKtuac/veJyvjyZ5MyqUICbgQePb3+29w
+								eRMpeuKy+BjKiyOSiQlfkh+fuvn5r1tr0/cXHLpKCKMv8611GiG2NHF/HFnhwCigsi+4BQ1CeWE+76zhHpWu7/Fps6sGaodE
+								p/Ufrrudy5Mo3l8cVC67YXKbtnSPM5JVGBS1nOFw2QdKGXTLXthFL9xlQCny4mxBbEdhrfTJKFF1U9MlERsUfK8OGlqVJGaJ
+								45rDBEcHv2RLI7Wl25VTN1kPVEZRiuVOAbTO+7IzwF8tmaKcLrSf6uiQKwFFWjeO7uOoR5UG9qi/wbKoy97ofvixyKJoXR7f
+								mgqTO4fHW+CRH/nlxF/ygZJmY4xknNwvmm1YEf2Mtfwb7BZDSrVtO29wMUZ52NW5T4TKvUHetZP406TLFzN9iOVSlKou62ZH
+								zrA6atSulWboyLPMoPxZkM4eXtiuQRpSJe/qMNZqIdMzpwla9DRiLMIScU2Qmp1rV3uRb1W25Wz74kMt+Az2iqMfQ/cnf4eg
+								d2iZ/A2hgxCqP/1G/MDVaR9FAcUpOnjhb15F8eIYg9SHLQVfHsGyTiCML54Ag0Xe1KOpfsA+wqHHNlvaynFR1gMSe+TL02vF
+								l3Tu6JZIi9Hd+66UJMYI6PR1SUboZKR3snFzg2uutdsdzP4SDf3jeYg/Fvem3aoFJVNqgvhaYged+O+QT4mJFroxzvG33aQH
+								DXx634KzuZ4+2/hAUBHCwIMoXu3FjzPM4AeqV+iyg/uwzFG1zTQxC++Q7b1lDh6j1OVhtyAmaYnChOg8cLEsZR+CH5Cne/vj
+								N2OHOv3dQ13Qv2lCK7CR8fMn6CqL7SUxOst/m6JelGHxSrBd1aIjcSJRLKVQXaAoc6Ulp1UpWk/ybC9Sn2Ynei2oX1PWglbw
+								Vlw7Qy2U+tCoE6IaA3QiLbeKxGZNdVzo4Ka2KulIFj7bP6o8zvlJDfHETNlUpS2gvNrYuKEWLZetcO03z/HSJsw4Fzil2b1s
+								raB9SNiF8BCdzdtcN0mFL2oUVVm3q4agFdXe/+JDUTMo94rh+eBnIjkhJNhiMZFD7cPhOsdYhn+0jpzOILTV8kLyu9S1RLw/
+								df5r9fnXDk3xP0k4v60ry+PHFXtZkPz+vLvIJ8OHJmp2xARnroGLGltgQ1DhnLv0fHoGv4LilLZZm2Co/fo8POJwyxl1DMke
+								Io1joeMvelWDPKftBuTf4Pf7aj/XwoqhtUTRW9rcodWxeZiPdImGUSZK1sgSmi9luITKw7vASpak+O56Nz+/mXv4Z+bJNEPp
+								8fruBpKZiXyDDeOusyeiRZ2S8fXb6ZJz987HGxBmfIamQZ+1FINwiicWohYJnRdcA1Ot/oQnA9PRtMm9JhM/O+/CEiGJq+/y
+								XEq9DG+svo9EHHk/e1lCFu+wZTvyjSMb+xPqOPdvd0YU8ZuNtl8rKvC/m8vIwcDV3Mb0P4z1t8v/ZRneHjpVNgf7eeYMtVFm
+								SLLG1jb7HXT3bDXfKTefxG0a9WV+V14dvkOqP6nlF74V3d6K5tNoUp5ca3uHZA6GPuUkoIJ9Abzhh22DGwaM/loAmaSvavi4
+								MHutU5aVw4d3JpHmSO1XZudLCSumyyLBSjCJevIqTfiia/ukaf1Fu29Wi855OXXsMalWz+g5Y35k70kBWbkwtIvIVfGjNwzF
+								tcp6eyO/B+9HsOo/82sV8ws8yT9tc39B//PiH3gS2y3b90ct/gv4vs3sqYg411og6an6IizcUT1yulGPPNrTXeG7mgipGPbe
+								N28hR37vgmLBOCrlRv0WYiwTJcOhuuCY0ZNeTJoSphgmVUlEeoQMwFPrDoGkhrZ0srI4pywOolzFnqblJeJ7aiLssTM2dGoN
+								4FAd04TeWuTj1H1Mmi+7/hLrvHt918El2HFtskmHQdFmalDhirtsWiHtQ5TFWFbpy/aPDmVKnyrLPklHfsOGzabMb5XYUC9N
+								wOeQJ0l67QiSsvV2+weY35nDwVaydfa/MgfHP5rD4q97JO2B0+0qqiO4eYqogSJVOvdgAyoY7EC2ZLxx4GRzZMHpjzzKV9DT
+								9KUToq63Cs6githifTaNFvGXDA6vLxsuk9n533hwJ+M4GCjtjklIot9dFc7FjjGFlSbS4O+rziDmLqUGxAEw+z3weGE/Hn+j
+								lh/wSQuz22hU+ubLnr3BMu8+FTvZSzznLDPvNYgyYYJDLGfISxqTV0ffcNKoVl83vJckcHBf61bKkUBNh3/akiD2ERHi9ez8
+								tde7KKmhPwab2/a087dVkEvnInfrfyc2OP4hNrr/iA1xUMDbH7ERHio9qyt+qH4DmewEhPnVoecdbhBc5JK64buEeNd95Ixx
+								x3ANt2qfVf5ToOA7gUFOubZvgOyG1wlJcM3fkkFSaP+iRp3GskdBbP1nhx5JG9yuaiX5Z4deO/vEYzhiSKgm7NjvP9dC0/iH
+								QPH6NbxxFg1YCWXvA8j41aI+reN/cHNM/9Who49E4n6E+UpIYx571b7VZGXkg6OmU1LlcIv4O+w5bkP3/yUX2P8VF2Z6/k/j
+								AnjoJMx/iwvs/4oLdP/bcgF9xIPsv+QC2z9wocai7xcX7kU3us1sM4xoCjIcxXLsLD29wbZownh/cYGXyVbPlHZ8uuYvLmy5
+								Ierq0EbsmGVbailjMcYwTcB0TICUmLPz9QmnHSkh6eEJQwZDemHdGTgpI+Ry6ajC/QsSb0obloIhZHvDvrbLZ0Amf9jXpK5/
+								lyFzb/1Ufm0Lg8RX+CEK5sr8VCRzUW3c9XTTymSrhCM5cN/cwSXPZS2r9Cygua3m4Fnzk1ISwL3wa5cN31G6FtrNxvm50Kqr
+								1rLW8+fb86je328b78+OQ/5bXPhXyt3MHSm5ggd6jsb03/fM6SbuTQmRC45TlKdxxTX+ZM1V2qvdv6QrzQ0Fmyk7XhJuPrSM
+								KWceTyn8rL6pb7elgtORtCSXPNA4qdufe7+pLtH3u+RDaz4KM/G1xyAW8g+IQNdrEEqrS9SoXyaA70fQriiKWbVi9P3Ec7jy
+								bQQ9Dc90A4GiTC+hyi5939jQdoT/UK6QOwvif2oqF37S2xv7LRdit4WMIn/hnv9fCCCs/yxcnflWe03CIlKZixfLgoeJFSSt
+								nK/Zvw+TOA0bKJzSOfOtwkxrxHhnw373kHpPNLl9nq99h2CEnZah1PONnQVDzvg4o5PfNjCR/SSIViICxuEVJnmD0ff185Bk
+								bB2ynyGxgdUEwUELQ3i5lTAiwVfYgQ01aS2e76pEy9HCib0Ua5Kd227E5jlIQphsLQB/9QLKchViDlxXAFp9jztko0omkbmW
+								buBswF0IU2wxXwyNWtkqEGxPftRKg4BSpX79IWwprJDi2alEnV7GrMYhJ0TCNPVdNHVd6Kb67eyrqAJzkO5gmm+th04ikVrq
+								tS8qt0yLApc5i1LhiT7Ohk3g/Okr2dLYzPwZnQz3/fCjkB4TwPZBYVrqRqp72iciFbMfs56UyO04qI5ipkN49T6Yz3eXe485
+								12egwsHbH1YC8jpwLgyfGHp+5POC6J7lNstWpNpaZE2vDU/7VrnwgXKM5s4i1HPozhRfGdrat4f3VGF5G4qSmrYpLnvNt4uC
+								TBu/TWXYjCT2QghgYGo8/8/m/j83+NN0HVsgDw4A9G7pLRvbo6m6AoSaN0EadzbxdZZS+gPk6TpWvTgwTTpXdjpsrfv5XiCf
+								RtupfCCTkh1orsoRRxNPjjocErJb1iRUfi3f2lsvK8M6M96RY/kjVCYeJyLudTbEnHmqITyHXASP9kJ6Y1P2bWsX5OtJgLpD
+								lXtaKM66QJqQiz9A4T38mZcQqdQtzFHtViYM0Y2LmkMKyeboa6yyE2rqwXIXG5ItKdu0Mcyhq1FsXr3ZzKzhTMJP/qjLb31l
+								hO/KmaD78b7q+1ukJqsnaFt5zHnEGmYNJKoZTTyyDsM6mygUkLLPEllZOkNIyqL1mpjxrBCNSLbkoLrpA8IliC7clyOYjoVl
+								P0kEJIROQaTlYQvFhBTh9db7lZOrstA01Gv4JPY7ittqGKOGa4tSmZon10YVN/pc4VxFJ0Od5ujsKJUlblvkDxbWsftfN8Cw
+								PIuwVBu1ihormH6uUQCcIKQC+i35ljo0sAzCa60A29o26Z92refWHLPsNnD5kw4lnyEqcH/G1iLF2APwFHctLTFT8AyKsPJa
+								kLmM+sUdlRNJ8S/Xx0hCW9N14pp/slSw/xBzwoyLpDmDNB5ILJJPaJgZC3r/jY7MSkcjTneHtzPt+yoDq8m+0HpGO+sGipsf
+								C3gUWiSpj04t3CP0x7JuDjdskAL/wNqwL9MkM2iVU8kXtnEvrO97OOdPYdzV0JSeAgYJd+gCyd7yqXODXe0OcEMhyT3pIgkI
+								3jwDiVqO1ELN9zYPsQMq7+mDtnEfc2jxHZkLD4fa4tzX+WmzJu3HJuhtrHUxLrfdPhN8UnNLmITTD0WNg2ChcLCWCo0zSytE
+								se7N7KgB2CpuQMVoT6Zk6k96CPlE0t4IzHusAhriFMx3v3cSjsdPk5NKhyVUrlrhnQk40WXra3BISaZ7PQfnQ5+E73M1bwVA
+								ttKnUefpoDdS4lVGn9PMnE4xtSWFq/tkAwNuJ7UWQqSBHdqGQuTwgqyPAAOvOXGKsGHhoPN7UDQO26OBPuCMZHqlteO1uoE0
+								DLuL3lXIJsU5LTmQsrCCsobEUiKP5OHrEjGd7CxAcsNRlErvpOZuF/suESEkpoERq9+504gC1621scQWn3jort9SUNJdrjep
+								MfdI+o2z9qwrlLzoILpdZpK1p9iVq6Ziva9p4NMhsJJIorPh/VhVFlPmgvwWsobEo3nwG1XJi6VhQ5Z5iMhkagZee93RHKg5
+								TsB5EsnxOJq6U+azcCq0TpqW3dTc5/WiOr9P/FbTmgCnWV4PiMyi4oBh7VZA2Ou2krCTQFgHuUe+b1Fo9AMUXjt/rvXFQcyW
+								NXuOw3ra4KVLyCGpU4yYOfs0xDtrua3c+6V8xK679p3jGfku5XeDGuszvGscCaxYYyqI+0LZvU0IVtfu/oxohWDaACdIz2co
+								/Y3VyDcoRUdXcMJ99desoSOlGxHB1rDN0Z9tLrFE65wEna32I8FNFQ8nVboP9zvBMbzbg8wxbmK3MXwvSzjbyPO3Z04l2qEg
+								lxKgssY7KCnhNWeDYM8xqIZAD7TSa2HTYFflezHn5a1n42wbAea5Mw/O9aseY2nuOWolv0dOE3N/pot1rZZ13Dj6hYMlqpyI
+								ZZcYow/WeS3tqVcIByDYCUyUg2ESMNP5N0GICRFqTm0OF/XORseDgn6Tj2uth07BrnyUHSUdxpPY62egekIbMWjrg7EZhx/3
+								+1XtAd69fJR317XL7l0meDPj+0eYS/zo1GzQBIYLBKDb4XfQ9ahE204ncp0Qj0+rvVkOwkp6xFOeoy+KDI3tBxR4i3dZfDnr
+								5PV5HpOZP6zPDIBf15pvv/M1tWsH3VkZy+VfMzKKPnkSrG2wJGQeGNc++Q2z5acPg7LcCpdaiTtvFKWBOlyR7L3eBfaOFw+Z
+								NhqdOxw+roRR3+2ycUutjvn1LLuXVJvYonmVkfgoGvRPPwxmWjeuGrvaam9lB66+XBHZ9b5Ib7DYrRWBc/N+N05SpmAYfuHV
+								7Up97LyUjLNVu9g1pQxGUB3t7SXvY1JmomKquCCQRwXoGYzMY6JeCWqPm+B1yAg11QXgLOMgV6TXqczenpHW88t57I9gjjoG
+								TKErkTbQ2fqzv3zMET2aKAtXgXGAsEEU/UhTPCU5XzA+uy2gNcq++KlPfMg6ET/nFjvuQ6GmgHu3+wCH6YriO5aZDQNlvhwk
+								cRMjaElepQjtDD/CAsXYPD24l9iBpi/MOcdiwsTxOGuoeJQBMGvJ2X6OW6j5Ew042dkGIj9+FKzrvyP/NtXwpcQ/NZAUieka
+								A+EjNqKO2DIElANrXoys4VKamNjaKPfPmvne9udseJiKyKkxe/9x0Mao6YnWDDvF8H64RWJ13LplI0t3nzG/gnn/xJb4I4KK
+								MjD1w+JrjdwD5yTckJ9dsj8EEzQyIWrIrJeo0MmKwF5t9vEsggpSMs1XuEprMltymPvc8ewVbMxjWoPFeAJRhCgM/k6Aqvp3
+								qQ+xaosmX7rz/UfAfKryL2DrARzt0JkGIjZ9SZX+D+H0mAaukPHZCGKLQQdfnm6Mg2dyTC5QuAO9v7DbRenn1CiEHZB6EB6R
+								zBBqrEB3LFbKRAsHf84NUGuzw3m+1rc/wkd5btpEoHQ2Htnew9ozb/R/9KuMj1igQ/qULACZ92n/bSyCWNI5JazsnSe9U1uL
+								jnhVAiP04c5LYBNOCl30TYU8eq5YAgIyHsiCtA2S1ciZztkWrADHY1eMJQ7Nxd543Zc1yTB2gza30So5swetrPeBpSwpvg4J
+								paNLOspLeaaBFKSBJzcJYsPdZTwWHm70C2wiJs1U7dqRHkwyU0CmSskmmQuY8BFbztP81jB1F10ID5q8bcuDu+qwxhHhg3Oh
+								x+b3850K9p6722IGPqAGCZkOu3C5yTc9yC4no9wk1Q5WvzTTlv3wgegOoaUnzjRwiamBWijvMGc9LCK35p/2YcSBxLMPnAis
+								nNGIxNn0I2/BsWmI1Ysoq/AcoDxHf2d8fcDyvVLZpaNdL5BB1KOfRxMu2I5/lRAhMb/x8ZOZv82Uy1rXPeQk5Esuv0GiYvti
+								EyRwJ1oC7Ye/Kd5EPnUw1T3yWu8UC+TDnkfl0VMOo+NnrkmF2VqGXmTGjSDCZ+EPAxZH3XDLjeRQhPQ/Pnr7yvj0k3mzJXTp
+								edw+6Ap0eAtdmzNse7vzhf6ceuWtYIqQvzNttpKbKeWHnLxs/JA0sQGRdAsnRMnm0l5nh5G6k0X0g5SNKzMbttdm5TqQ9dRX
+								uwMkJaltJH9WlYz3BNlrQx9VMt45JmJIQ4M0MKrq9WzoIUz8cAibJfIA/aFCnErL5lhYUPAblnwdsygMMpsVauTPCQg9w+4R
+								90kNa8EP5jxPBUpMJhGB37XnNmyfG5Irb9OeRxFlavp8trCX3y57yvIvDIaQTaopdUL3ejEoHlbNZOGKx/tXSsQRkZ7eR9QX
+								92m1gnr3Yd7gKkAn+OWL/Xodj1iox7vPEwsGIYAD1Q2r64CUipFHzKz2lGv1xTvDroS33xac1E3t4Dy/+oUpqL9P1f29X/pH
+								BSVDbdwmgwWtQ+OY73NHnX5ytR9O7kteuFoBbz2qPl4dqX97beZaVC6/jFL7Le0jV9wjbkPUstWMQH1zlxsAlH7pxT5WFeMN
+								e6c2lFxHmCsDBm4cpMEI3L8ALs7IkcYi1CG4ZkwTCirDV0XEkOwPyhrBNuMIY7KkHhmiEBS4pILkZqaIR+E3VArzON8JfHqk
+								afShuhD5eJ9JAiNyOpqZ/SMeucBCQDx7pxekf2I/qm9A/xG2I1enST9/66vdfMB9oISbxth+R7M/K6Mwgd5xCxx6eN4mFjsT
+								Ac6zMk8Tq9T3sDyaLJ0CSPFBhj6HTkq1ZyrWNN0JfrFZjpYM3H7qO43UWRpFwl31bda1T5s6s/Gqm1kBxJjdjoePvXffJwJc
+								KyV2XXyphbX3WIL8zNVQvne+Pb7sUAvjh7B7qH0vcMD58c4ahWSU7Yuu9cgQfcOeRDfbVXI6ze2IXZpVj2YzQtFlgkgeD4WW
+								dQHsWSG+uuSl3of7Cia1Ky0FOJC37iJjzs7qYYlInK1zo7FgssjnQpEfF4UyuG5xJRQ6FV+ZdSjNMJm4ZbCYv2frjXlrvzw0
+								NuHCdH1ZLnF8KqSFMQHsOtRFN0xdB7HrkPHsKzNPBLpbxCpAD21S5i2qRpFSR/1cSLUsv5iaeVsnn9HPcYqQMWFc1L6KRsb/
+								RtgtxHiTPZmW8JTFxmnVkJ2ZpMl1pihKysausl0oqhhaR6Atojhezfjhuxa1/KKFzWy2Shz3ibX9vqna82/ZNo3wdI/1i22q
+								/5ptbH+xTc4GyIK29u6QCO7c2LtiSXRXODqfVFjZaJrYr8BMrlgagfKMB84hvrLlhNYhHUJAMiSR8IfNO2uuGTvJa5P99hym
+								KpQ2Kc9CJ2qJ6F5NP3RMNa7Mpf2H2cEVbf18ZHTkowJ9Xh8jfL2K9c5Wfg46z6kCUTBSJ5hBwqYBpFSQ5Qqb4o08irywEwU2
+								NUy0xQl3OD8YB+iFBk5VDzU8TrIpMtUhchM+pg08KkFxM+kk0muhdgPvE9yKLOcjTMk02SDLVp73Y14KEVLuJkqCO5aeOFoB
+								WtbgqFFqh0+9upEZnxZ9D952EF3qTkn80kYGFKhI66b3VTenctg+KM6vnPDt4fHqGuiKJUo8nH2cyZUQ7FI6evlRR+rEXZ1a
+								Fzk5BeqkT1tjeKYsz01F4t2tM1bRJBefPDtCG17saSPvFXahL8sAn5naaFSqyrB387JTIhE22Gtvn2tkM9f3+Fq4BWc8TwO0
+								sRwPjzNsY3W3d1ttNKU/ZHEi9uqoxl3XSDZsEDaYAgncd7HGHFWlXUa2MvP1ODCuJJG72sQySSeuCW82eAWtsJqQevRNW1pQ
+								MksTMhSlYZ3l01pqfiZoYohJUr16RpnLJYIbm+2Xy2A8ArCJ4977+bao5JUX5PNNBOFVJX1tB6KsuQQOSBu7oM9bs7O9APsU
+								BzXYCCWKRBU87oj0tQPKXz+VXD/tZdy5Vj9C/3+ZGmD999TA/5upAdZ/Tw38e2rg31MD/54a+P/h1MAlOwnYNTwY2AD3bzVR
+								1r9poo5ALhwAyNXkDTIloZVI5vl1SvxcOnH3vNzQ85SD/UwBhpwsglOGhtRI7uimEwQOJxvEMCBr3ZQ+cMRBJoIGNQFOTAhW
+								tf5aPcF+hjLLRtUvzN0KqNwify+jtYp0831dic+/MgkJG35E2h/2ESblEZX67XkQ+IOEGc14UQ7LEBmBdsSHf+pdJONTuy4e
+								s130CJPmNkTWOPw4eqC2x6wcTUtIz3W5KR5gETP4sBbsBhZhSEVrDjRruE597Y6/wxqmwcv0WR0xnL2vC2KPXCfZ2bzmSOVE
+								JMwd/6NqPO/JACVIPXg+KqBHvqnJeh4el1YEKT1ny8yVhuAQsL4ThkdnUxo0GaHopEulWkuHkSEehLMZLfnKf47KDjAHl5DI
+								11e2NK96pok4CF2vTCYqPsfA55WrS7QWr7tNaFJ2qSfVRz1D8NUqwEqBFODKzITPqOL027oPyKJ6QYjizPQZ5sKrxDfCx7G1
+								tn3SUQmmHanFC7dttsZPbdJ0nfwZ8TSwaRtm08c8FR53Tzt6gWv6bUvcp5Htko3CSpq11KuajP79qohKgFmfJ7sv6Xmlq/r+
+								fm893SbKtII4W+4D7HEkrS+7wkJ4OrwCi7rqUosFeXuPow+nULOu/tiYbzteO+vGnVvA30TRdiP0G8RCrkDzC9r1dLfo1oTv
+								zBNM56ucvm8oVqN6GG+J5UywM5uSXlhMxozJKcqWc5MIZ8SSHXsELHeG9YSH9dLZRnPMMsnvZzlG+5BJZnhGjAKVCcWEOILZ
+								7x3Co8cyx0b3q7Z/Eg6elu8u7HOik0Q/JRlIBHL/jAQDPKDRgrHnzpkAcOEX56zN8G0eBo478TrgiZuymPm6s259nnE/HnqW
+								3v5ApqdInxki6cgYj18mJx3CoLYuWGYD8h2qCXc3WkWPcf18oJdBXEger5DrhYZ10eZSMmmltBJh+0K8ppK/3M28KtdPJzRl
+								3f2YB7glm20EfVqKkQ5Qiqw0wCXh3KJkxQude3ld2ybLI4AxWXqmaGs/OUFth676DO7lcD9oXad4xuvWX5+kcTrYZuYEqYcE
+								FFMv8TZzEqBWG2kgvqa2rS7i4PEaa1LGXnyJj9LfPPP6uDbHH/v6hybaXLQlqz3tlP2Gs+yiLx43az+4nr+DazCHp2BVxn5Z
+								UYP92GgpNQ2Kgr8uK5IrYv3o9qIe56O19SZt8fZJu2JnOaF4h6dwEX5goR6zJW96zlUyzhDFN6Xa7wNiy1zFZnZJdZuSKXjF
+								j43sOnnzIscbqA9KKvAJTS7QmC8/9fwOLTC8JW6E3xTRiS7h2TzcxYFokyS9QA/RvTbOmJ0zlGmRQ+KQGY9caKaV5B4JUI3M
+								O78zz8GGgiy/HMboKq8C55YSasPib3mfxnyFQ2yxl/avIbRJ5cEb5c1h7x7guzo6iN+gM/a3IKDGyp6J4ma/HwZ6uWAOv7t2
+								xybla7NcsHclSoww0w5b1Mu7AFEjkDj2xegRXwLwSZoGapD7CCwOgfiq3GgbxKrcOZVMcNF+LSc9CPff4C1gb0nVDvwXYEDZ
+								5yHHtb0/gcJrHrrFwHmLNvTg0USXYqUssFv6sRmIzJ32BqcGVnKN8skaOVFbE6BA/FF92PG+yQh9RicJjxJPBrUvRMb8wxMc
+								D2zFnNXUkvrOykJmCky6gjMolxNr/Sz2ofAxqV3ZralzFu4HMnZ9BbscxeZ6eucd3R0yKHZpctTkADzdWJYvvUhJ/1o8YwjL
+								KlLTtG2RWg9rStApdIsr2Qf65r45RGDPL6uDP/s++anis5XkpBRbJZ5Ak2i7iJlUVJa2PXCpt7G/xZFAqMnGkxvubHkkWfpE
+								Az/o7p6rpdPgPd/kqNE9eMKvD0lQ+u5WuNSM/4ckyv6FKzJuq2Pmh6Dbs2JTmRJvlFJM3iUmCpZYkkLFgSUyrvbxpwFW2HAD
+								y0KYSJ2DH3Xjkj9Oz63pCZFigUIdkDY/vh8RwFQ+cWy+N60rx7IIgm4W6uW2K3zVa1PZJaDi/+mXryxi4e6mFbTEO1LQVxDn
+								E3XUfSMn3+yxLbKcN2+VvHVy41hHczHUaGGm8z0qrdIWNmdPk41NI+tzFmZQtBuEbdkVDs8sCQK2rKemcSRbLKadNlqaqEQw
+								V2mpdRYOaEorq5mL7b2oTV49XAVz2BzreOkw4gR7Ie+sS4ufv0+4yFkQG1pqHDbuHgOjjT2EQ+JxMOGL7OETR8eeB7w6CcRV
+								bL2Z79Amld1hIwx0BmIntXpJEhj0LWJPP+M8TCtad1DlnizyGCGUgV0qcw6bsX2eJU0ruP+XscO8GdzG/Snl+ysFH6tbO2ah
+								4gQRegoOxy/614P3V8st8Tdj0rXN+fhUVtmux4zyLJdsWYX1RqZ25N5hNMVn8pmWb0vQz/8kiSr9gyR69TdJVLrS6k9JtMd0
+								6jQe/jax+uQ/JNEAraTvsP8gib7qymyhmiGbeyB+6A34EkGvA3mJrfG+5xymLUAWSQczy/FsNgVbNmR1k8gl0DuD4Idk9dSS
+								yZ+S6CFoljBlhbdjsVI6Wjj4hzg0rfsew8NkYH+BJc9FJ7QGaYl2IYOuvEqWCYEZ6iFds1lFn77xMjuLBdYrqO1QX8059YdX
+								TZXoYNkzuUfmDVZ2zD3qOSOTOuGhdiq5EWzKf0qivIkt3H6qkAJXZN+k4Vp/sIHeye/h7rqGFzOmG4vhflXHJzFJUnVI7u5+
+								h1uSjCrbgrO7Rmd4tKwDE9gmQlS8jGN3MQ+Z/5HOjfDoB0aFTc4uxk2g7NRyBa0nB2IdzIqiedrF65dxvnBSENAE/UGkWtt8
+								E/w5kOk0rxHV92hHCP01gwq4vMm6tk1vTPBhSmOEuPfuoLAc4xEeiqSw3I2j55TYEL5c03lWf0pJQksqd02WAYZtGz8TVqyg
+								CpexC1zCibHHgqwTRwN4ESmzSsE0sj9pIKiTc2rl2QmjGRQZbu9AgdVj7+tIoxK/cqyVY7ySc9biD4LNgn2UcO+hCfSosoRt
+								HISMILWDnGTLkJFCkDu3bAnJMYC5SDlpLgSFNDIYqAhxK4zWInHXe2HKXkDi4ZY1wFIYAQFocOWbilEvVD+T/G6G5QPcjji3
+								PaMe7nbGimpC7/fOSPfFnsS0dLFSTycdlpPz9xyg4naseRO7N5C1PlE8xw4t3UpuUbINEvHZiRhZfRCBBazV78AaLr01em3E
+								RBYOfVvRY2S/8wSsqeF/TH9jg43KyWXBZU7eHhQqhN31J3npYpcWkupV5chFL7zb3QmsCjC/kxjKFgGc+bNuaG5aMnzmBfWX
+								3sYoWkz4HFG/q0sPFGoq9um8vNdq+WR5xcxM2Y/xFKxh9NaEyNwxsfz6fL7r+9u5D/FB70Q0CDAwpX+tLLH+RlkqH2pE463+
+								Sg+HhqXJAatPO4JBFw8hw4cSkJFfdu4Rvl4oHDNNJgFbCZRIj+LImOafaOPOGy2DBE1n0a7JqGy6YRj0QSU5UzdC+zx8hnaM
+								rCfLfd+OVd6lJL9TtvfkmhKitRfjUYEGBpfZW9NVwSpGDEhrjMQUiIPERLPO3+7rUrHu1YqT8tv3/iaugnMswqp6ksxaR0yx
+								tBPHnW0/A9/mlBSnpHXH1/spoFE1qkPEwomGxenB6PvWoTFsIM2POvN4E7Q8tJvGt69lQ1Mu9apB7H3w6rVdr/g1nbzw608R
+								hyEv7aI6OptQFOCa0K+Xe0+TVRvKSO6UIfSg+kuclZLKrkn1pMR36XTIdNUBHHSz2av5EdmyhdcKbGWVCeZ3X+t2GIqE08Db
+								bU4oNO3vYHXaAkUbrMaCZIlHCo9o+GZQdwfNDw8djAWr9iOWGaJK9dV1vsCa16bClC1/gM/Ons+NrDNTSWZOrplS9/VqZRLl
+								g6/ci1NmmZQh+0kb4hrvsyA9RMDZ1cerhmqfdZD9NnGZo7LKBheVGXZM5xTvwZk5h3L8bbes5uf6F8w/VSXAX6rSOQMzvHfv
+								c7Q08eb3BfNEZ8ajaHaDgUzVctfZHKDNFG7JKkpuS4VUoe/J0tGDLCDvUI2mynQDvJFq6Ng26YMe00H9W8De73/5dsyxoIcM
+								DgZ2Bv73VsPxV49hbPTRyeEPKv3BIKu4SdleYbQBUACo+lRgTa0+lPKIrMatuqRe/UIt2WimXMFkZyJ/jvsC2Ut0oxdLxAC4
+								89xh+8qixyFQH7UUSGHImryjQgOtbyAXCPwsWGXaXYHVhy+39jnosw/YsLmDOzp6Da5H3FdNdldXWRUVsTJzI74ukZJyS07U
+								AiDdMeFhvAWYDYEzNgBz3iJQFatRivhOV246zx1E9gIpI/4+jOfn6zO+VHiCNNGJ3l2L25dTWxTBLPOvdl/x8t3PLcvU9/Oo
+								qkUyIb8TkDDUJQBCFLacaq7PmA/stdIrA2dcJxuAyBu3ly/74/j8vMYobmM9rkKaldaQTmwFpfLgQ3h2sQqv6px9Sc+/NR8t
+								CugL0a8A9MYHA0P+m/n+UJf+tNup5rjNDhdax7tDPrQW+seaPaHPuuU7uJ/1W2nSsA4rsqlG3ovGwchQu0Ssexwl3Mw95aYI
+								KtR4R6LQLhcuypwaNdFoHWJ8zNviFnrmUQP0apzE5/CRY2Pz3+ZGTIkFmZIXeWV5bKzLv2SFJA7wD8rbxXsQ5LZp5DF34tK1
+								G+x6iIRKgnWrHzPW66IECBsjqn51JksO6k0XHcKwdEu8Fmak6m5mS5DF6TNYgpeVb9YgQxo5JYzFGAXOz0yKN/elTdDkeRjW
+								8KuZBHI7MlFmsdo5EzXYAxZUpAbMGJsky2+GFGXYaRNpbqA3YXJpzCSj185gX8BMPSmFffBUE6EMvNCetDrQSoikHaTGr9zz
+								yPSSZlXpE8OwF0vegcSLPa7fh3Ceu/CrVYwUDJEpbUng+sS06fO9CDd5lmvTwzbUTFejednWQR+xhpGsOthPFu1jL0FJRS6Y
+								FfsIu37zp2SDYe8OEseHg/T5DD9IVcIh+Hw3GrLxxqIFzUQLVJtZgmPot2iI7wkgMFDG4+GYbTLI7LLS1MD5TEfquKdT9sLP
+								V9TbnEOlckjULLURinEds1PbvUi2RAJt/3EAZWEGTlIsu/19vNIW+PxO+jgGxpBByKfUag/q+gMM21we+/dQC5tmPJhsIeHV
+								xnGabbIc+GyqZkMN+dfBP+e/wvuailouceYZKF5+sRsbs7AynYOEo6aI1EkvvdSx92tnIhwQeWGlNwu1AKBJC5RflMIGgnLV
+								l1CsYL/4CDJoveN7Dly+TebdW7AR7BmlArZpJ7GTFzW+zp/6EHL6cCxhFicx1k0SNxpwX5jer4q8hPC7hto1QlMjJpN0wYW4
+								wOYDp2FTwxM8fDt83xarhMTOSmn9TOhHOPZQ0VBYrhvEtphikaGACNxlstJmXDjOA7JyHtrvGJ/YMPmpvzST1y4EHUxQ1sxE
+								OmhIMNoxnRMlqXOu2/jwjN5aSh60YUxWk8N0J9fVWYJ4+0cYe55GDCO89Gend/MrB7io583dz5dXKKcEJtKgVqrilVaTkCHT
+								oV5bD0R7uyYnu6TeUvk+BMUICr+mk7xDjS0eFpnz3ia5jRF6/9opbhYPdpb5Hl4Bo1RSrzeoqCVzAnw5gxaVy3eSV+P79w8J
+								roc5ZrMFTS9dOoYwHoK8tBfhR+lro3PAmE5yXp2kKZTSho5CV1Ht0F/PbKTtG82xEqEeFrWpTzkD9OrjOW592vBdnxLKzE/v
+								e+wnbZukt+8TLvuUVlJ2ho1WUHcurqgPKjcxbRBO52FuyPLuhFl/KMU6VzdcL3pqHvOiJj01MiLatHbc7yg+fAgT9V1BoOhc
+								6xboXDSneuUI25YpEuiQLQzb8bzqIQhmCc09tunh+Y7E4VSpgHg05X1N1ZrQQ969gykCBUyCu7uXzPv9QK+CkB9DEAwYmB/+
+								H/8++GcecTIztjb+6/yX4KM5aQvkwupAXXojPTzXaqRaRjnGarSitkxoNFtFEZjhsq7JERfLT8CX8NdxxWPJJnDBqwai9PpB
+								AM1TXrgZG89jliiotI3kuV/iINamcOEojz1jSDY8Hx/EFm35FYsdAeyKn1fsLRf5F7uPghRkPoB+3Ev1yo46/xA+wlJJ3o5u
+								7Vltr3n7abo4nRVqH0BUrfST+PhHDVpEu0WSUjbepaWV/0c3LkPNAKhVk+tjDrGDTe6c+ZaD4HmouDln1UQ/IF8dXqq+KaVO
+								y5PlASRCU8lmrYFoHeYRPgEOAp9AhQyU3mWoyQReLtG7x9Taa3Qfhi8h5EybIoO3c9+11zp1JTyD0bH5rDhbcx7pTxECj8x1
+								blPHB9MVvYUues8HOiGUa6IIOGC3SFcfPoJxpHZJOzK1TGYvnt8GQpT5X8lFgHzqNorx3MZ9DSMcuWOFIKuEm319EYUIJdEk
+								fq15Bav78jVjvP5crvZwt9ts2OK7QYfTyig1TemiceXemnHH4uWFfHLjuwgZ99hqExfhtCqVc2E1LFlSt4T36KslA6OMJRdR
+								lSrHcQO8V+5HzzXKQD8IHTOkaYOWxQsxqTpHbod5ThHS0ykJzRaI5LAcRvx2UfF+eHArIZJBfLAdXlcH+cruiJAFPUFmuszh
+								62fCXKdK7bbHn0Bfn+eRn09N33UFnphAN+RZJw8pnT4vVzFCegfEA1owW/33k3qvr8/9qBvPt6PsEfc2gIEPXuIYY5nAh9Xm
+								QQzctGAhYlNbU9ZwdFYGZaQOxkpYNB4iN8/gYuTFXhM4EqNsZq7N7qu47lvKieSAzx4d2NQwF99YVwxTOcGajPS0gqRGnWxA
+								/P+jvbOMqmrv1rh0d4NIl3R3C0h3g3R3N0h3h7QgAtLdCNKNdEoL0o00XNHjwbOPvq/3froffBgM2GOPNfdm7cV/rTXnb85H
+								fbPWDTJt+iJCxpTYuVTjeSlySh95J/hAA2o28IBNiD/RyzL5MOost6dBSJN6DD2YRoxLXMRSCEhmT4X1zVHlTOyfInf39Qoj
+								ylm0r515j+qNsWzy8DBG76vhmxLwto5BrgCpQcdNaUTICJw8xyNAmn2aXlgeHIFjDZSUrteb2oJqZ1lRF9viXPV6AdiiLPc6
+								sRgZJQnK1vTIxQ9zNNrDEbuDXFWFPZZpokxrX55c9uMHg1ZwXsM1HMI9AgTyuaRdCFCcjSYNyF3fws24XuBo6YQkkhcQiUl7
+								KyGDiEqPQfKtglwERsTjr31yIPDURnc23cFMLZ2ueDjmB4JOLDgaM+YbrG/5B3azDFwx2szKuY08YralY3Zu9kjcJhvcTwQ0
+								TRm7Het4lAtO9D/pegiTcyNRhkTWqpXYJUbnCBor4EBVpXwwn0en10BXBwFhfR9VbsNA2kRMyBM8DIx+wlx1knrUepLKCdOp
+								U1SSPE6KqbVf5Ajb9zFR8ojbtIj0NKvO2Zq415F2qrLtRuDjeqnqbgPL7riUY/HnLjPgkc8WT43Tkoix0ZEHHIj0lxyIx7qL
+								/YRmW1+RzJXIVw0uk6LyWcSiqTCwlw5t1nq/3LvWwfEnT+/lWu16sLXd+1HDJMcJLHYT7cFWoANYXJKleDFnIJnIixczOPoz
+								+JnxKaIClG2YkjayaRc6PYpr9Zo5YxlkgmWeOGLYAxOB3VWo0TAzfPKaFMabqU4fSpHeuUyBUnPswn6+sE6iynCs1dgk5AgE
+								qQjuPsS40YwziLYZFuEaBCl+Qqbs6weZyh5HjKsM7yUPx6SI/ap2fBMfEo+6jqW7t0sYPsaSFOu9oTPhcaUZNcPIOTW5ezHa
+								RG7v1VzLSAw1wRzZwfEHrFEDRwT+YLCBZNjFOGu2w7zV4VRktrYPkKqqXhikOQKOJ4JPFAVdOF+FYqIxhtCssWsErwdE1M+2
+								8zVQdsICzcEvOdOQTZ2mO9C+zDf4yDRM9UlCUPFjoQnGKAJrj1lhr+iYdrx4zQzLvtzWjFnRl9uAQeQX/fVWdATGY72DsKYx
+								B9Ww4gM0apKmyrX4Q4RIu0GzhhGlwsuaRp6lDSpVtj4qJZSKSwWRuBenkCyeoMvDgbELJGga2chNLPqQ6B7n0zY0OPshXOgd
+								2EjFqQbCHLsotOsXstxBj59RYipcBewpqvHXyG6A82exQJo+a1b2gkYJDYpVi/IyxmpFQtVEe6mucDlB9kLfo9fRojXmsfxL
+								hfyQ2ouPcgV7Nx+XERHTyHQ8piwr3XSy59bhKT2bJ/Mrs0qVNwJlK3i3RfgLuN03OYygt51wovHg1eJL0YXQeI+Jr5UaRo63
+								TooXtqvBPU9NysK8oz8dyrYDtxY479z+lL6PSZrOOfx1mYLhO7q9wvId3bb9im7rpbZGr9iXJRE/HQGaSQGiHi7DFj2WsdeV
+								Hr5tCkQ1CI2Id05+PWfPIGREHPKq2647MPDjFgIv1Vd0W0KUfmig+C90mxXkOnfLhmyoKuYbus2ntSR3u7T/8vYM8XQF69W2
+								aYRuIT+B0HQkxEVYmUvzJOUK1qDsNImdxrsKikx2XWtxK1cooVMZ5/QTqrZ911eImujPb/iA2MVCLzzq31/qc0jqcREeEHaB
+								FZjy2wRgqmSkZh+V01CzcJtyk9NL64mJMRjMJX58m19aLyuTuPF5oogDlIgkSIeR6eEOvAHI3JAbF71gh2T8vsNE8GD+EzH0
+								b+z2h+Hul13XOp101BlvglBhTal34vcMDh4Oz3Y0goynCRKRmSSUxxtXe54B9UYY3rHby7Shccu2GV05FfTeR0XgdFfPhipe
+								a2WW5YzSTj9uU/SVaFsu2ilqpsynE1Zl4T+grpEkOuLYWmP3spnFvKIeDj8DU6OzTSuHjbS+Y7eNKFHeM7YGoGb1QlCWa7fi
+								opIECTeyHkEs75rKG1jySBQA7yJqChEThXhlDCYeso7q59UmDYHKk/hTF5COiHOtKo+2FWB19l9Ntgx7n2d2ofhBGftpgx5s
+								sYdmaNFVYUn4Sh/Mt9t9wL1x93T1/ERzfumkrX4Tc5ar78AeBc66nGVNYUbf/Fwty1PJ+JTukHrheRle1jlfrhAwSZanaDkT
+								Vu53dhvnG7udWhcvb6+/q/+MxQtNOpfNMJekhqUk+Mz6QwksJXZjLxkoXXvgU6BEpGwWxvantTmWgqPWbSAFXnRckOnVd1WK
+								hBPPq4c/VilePnpv2GOOhKgfEVs9Yp60Q3SHbquziBhy3lz9q0qBby7MoLH7d5WCcGHYouVCBG5LMMdhoagULxoUD1uzjY7H
+								rFVUlwExb/a6oUNQmBW2v/RcxNltdBLPFeZZGfDZx7XIWcO0Gbv9EBPKkilpl+F18CbM6oZ8ucuhdVepN3Fm3KvS89rSJtZn
+								cVaZj4svE8O1Fy2+VynE/6pSDP1QpRCZt+mib31jZ2+unqa3gK2aadXgiHo9n0jX7FJvj83oP6mFuvEC7Cby9WerqnEOPStY
+								LQT3EhS/lazBaEZYQbuPOGvdl5qtwJtU63I1Pr45rYcsaWCVy56+gwzZaYPDjOtcwiQS8zMkEsdGXkCvCkSPcYdBrjmF7NvJ
+								utdPkCwEuZoRrLag4o8mPkTW4DyByGzAE9sKRq81VofGeJtLqvmgem9nMsEVOKCarekwfmIjJz0sUzdCjf4WCHf+cenAC7Bq
+								vkRg86QR+O1hxuceDswXMGwDbWCQiRjnIoS5vMMQ59ukMe9zRx/zOTpPFq7scpBjDFcjlzSLLC1Io/IsB+G95VmGY+axDNfD
+								CWIdG6phfm2J38T92lJAUxNxG8hh0h9tlwdlDHyT/80gSBHcPN8cwrhB4FGNd/1JuUxNwbgzEfQLih0ZXk/wMVp6cRj7gJqJ
+								kfHOII2ypnYaqLdJhadPO1dI81NSKPasbzwX3fuX3K/I3qmGN58+txsSGwAP12QutphzMSmdVjilURNcGoAPtsrXmob2Z73k
+								DH8+K8M/y1HBBLxbdG5WoGvlHNjuqcrCiTBFJT8zzeUJnhLZESzRIpzoIKzucagItCMYiFmst+HE5/XSbUoPfv1gC8TVrG4h
+								pMPwuJFsJXnYjnIMx89xbL0OrSac21y9kHPywG6r2sl3KL3IPLjSM5vf2Mss6xKOcdpFlbQBIfHLiyS5H/Yzdgyurlc5CSQv
+								les8xNrlDN/y7dqzb7jwGz3T58XmXeGjV5gec22aeF6WbWmwbZeBWW1o+m7K4TPnrLlf3+5Edevgg7rrFZzFgNmkeTrruU9A
+								rOxp+tkyRP3d1xRN3ownt8vxhAvkSz1k38DtUcL2wTtwO/yYUsIpR0v7Dtzu5VGTIMVqEmtmCQWOLCwISDiZfrNx4Yiolk5C
+								ZLcavMrOvx5Etl/9FdzOlMmsfKHYSQ7CDlQDlkmhoGCclT+zZnKARL2aZEakR/iRRSx06NDnKe7o6+TGRS69VEaLLBjMdTLM
+								MSlykGgs1eeyUqPL6GT4InnPuodL/J7lHlBPir+5QIwKfC10KQhO6y04yUy+qHGWrJCtBIw6RguJUaOAsy0AilKfQMlMJ4/o
+								12LAE9gb1xFenLkNfgduS4vpTcX8CG5LfQe38Rb6jPrERhgJejZ9TONKvefzauha2o+cU0di0lqDj8FeZVQzOhRf633an2Qi
+								wgdpVQWHrkVlsubClTqCus43O43r8+mlhXlCr/IqiKCu3L8xGPMDzEv+CnHSMfnWYjtLSAomsf1jZFNFT9x1PjnNFGuwWPDH
+								IGduBP68GcyvN6jXYWFsSYrt4dqVNZIgG3D2oR/T20s6D1ZJR1LGOda1zO6Au/GyfgW3xx9K8x+zDZXcVSmwmiZp7sBtNpF/
+								VylScqnSw2XTDSl/WaWo+lmVwuz3qxT691WKmB+qFCuEehsb36sU2Nb747iv5R/X4gFUKRpYv1YpjP+uUlhUQF7hTxUxWUPc
+								8GN8Vp0NaD4+eAnpNRhzYr4fZ3mQVg6Hu85pcKpzKS6vBHUN6uMkr8TF8a1KIfqvKgWnYLbVP6oUWz9WKTK27T2aQX+oUlRR
+								/k6VYiUCNeHDpD2CYBvsIu2kneQCgoVqa6GnZXKCAZal8Tlp3CIEA52SGYJw9wQcAaJKSxr2pfghJdBGRRLowYhb++mjA4uu
+								pPd6SHt9W/z9gZ9zK7loGaZfrpZTi/adIz2JqFmVAfdiNX4Wvq9JqDfJCR1JZDdWBoKh35SDYq89Fc7pSedzbdV3et1tHBKW
+								dz3AoNdsNCWZTV91Tms3BPkY2vfAncbzG7g9jMDle8zIRCVEhK1jKs0zf/440VDdDxZbf+oR5kEaWFOnT/yRUqHa7frrtW09
+								3rrED9tXdUInl+HNkyNVarG8TVGo4tvKz6KvF2gazziMro8a2m7/LxQewx8K7w+F94fC+0Ph/T+k8P4bcM3wB7j+3yz1jH+W
+								+j9L/Z+l/s9S//9wqZfyCJ2bhXrwIOLnmUzGvzOZtWgBezDHvG8EdqFnL27oOlXZytPQB4j5Y3Az3mINIeOaEQU/CpHaVt32
+								2iMQmn7VJcYlWT67Tewr+lcmU+RjAQJv0aFEQ9c/M5k1INefUkR/zGSuyN1unJV4nSOerrC/2nb1/juTmVomdJfJZL/LZMJo
+								vKvCustkilm5QQkh/DOTGQhsG4d+cn0cddljntDp/GTZIAJGadxnGZa+lI9dGsNAU83cdewip50rnIKiJ8xBL+Y0v3VTmF8n
+								Z3a2chMzLA4/YGDIutItDs5ecO+gHRatRrF10oWMowSZQhUdSopQAMZahMjr0Wng3RSKV4RydG/uplBEddg92UsIhVdwAgpP
+								zVHtnXg1fXEAQc6ZjFIa6OjfTCUf0uf9KGVwAnTwFPvdvhv/+xhP/85kqWb9LVhlOAa40JrqGpfiN62gBtOoHU4fWML7Uwpn
+								t646NfX2G56wLkMY93RL9jJwtWIZskVHFkk0dkPiyIU9xivsiYFy+msKBW1QxZZF/N0UCuhaEXvc6DDyG28Ovd49idj4ZUMB
+								FIl41Or85Kcl+2F4AxElnzAZj6xEyETWAh9JI5JmIPkgtUdiUPl4towZ0sE96nBDeW/jdbUXWhHq5tSx1wwxe5jS/jJmfJUP
+								OzUosDWzsGMZ2TT8QjWT+113jTtIp2cYOkgaOlRc2AVJz4h+jGES25IgtkiSOWKI3npgjvWalNRwdF2sy/SVElfKUmJa/IeZ
+								RtLlFptmhkLjfY6XyO8Q8QjBtIXjZvoRiZaS6+Ek2+AiC2+G98mdZ1ybtkE5Jy67PiUKLMgXdVmoYE3HCd8cO7OIG4Y+x4dJ
+								rYw37DPHy5QHApstZ2eYPTuiJaZWUWepoYHDeDhlMc2VtBNTyt5j7WItEm0I0WxNi9bnLl0DtvWSqRAhicWjptXzCbK7uT1c
+								21khFFlwD9/r3c976AhYc3R0bWuR+5+rS7y2qGs7oBejZ/FqBjiqPi2ijypZlr08fDUM505vfqqY/Tlz+CRVhmLStfdlY0v6
+								yOI+xYKAosYpPU7Lu9mLHI48F/zrUGX3MFvptujq1xt832dQrEQ0fstkMlQXDU7VCP81g4KZtH8vnSatU2Lp5IXQhUHwLUXe
+								tZlFVYQV/NsIRvYDDjKirnVYESJae5EJZ+TauxkUaWCam0rWQwoq89kVz5U+WA2p5lSOsruCp5G98etRb/AJvrlC4LNnDm4i
+								cs24zfg2g4LnlUXQJ4QlC+67GRSBB46h6/hfbtxNuL/PoBj7OoOibUZO+t0Qepdy+gjH3FgsvUK/LOWal2Dg3QwKg28zKHIq
+								QdyOYbW1tCJvHkjN7mVWhtV6yUhFsuWKlLw3EYSzVfcdBs+FY/a0CA/FSbWMDE3RV8q6AOnert9Pdu2mqiCxQ8yns7LYT+j3
+								fNPEyeaFzaBOK24IRO3fz5Cd1r9iFHUOXVHJ98n5k3+t2lxUSRpt2Ri/VW6Kf0SPn1ONE9vtlPUjO7ZILwi2Av5jIGt4tbzp
+								jLIC8NyiPjI4lpRN4CdmXA2aa/uSJxScB9uO0TlIzDiPjdWNEoTHGhm9dhS24Wjtpmj7DHPVds2p7LrjHFmk01vWyqaUKKYg
+								KwaNc6Wb2DJOi4Qa9sJuyrC4l8LSG3mynJ7NqvdMwWYgtGswPrdcdQUZicDmq0GuKUO34BR7MFfvPve80ohSHKdI2oRvZkG1
+								1LNNxfEZeh+wvFg3lfxMmftF/9uWwfH1KmWmZKQKnVTMXbd2DSv8m4w+rNzUztzA4TMsHN/M3pwJj3LwMGoH5pWo8JZSZnmQ
+								zmK7qUcGRLqOTkronzu7dxAWgFk/DBwHeG/xINT2TDNR+udrSz0a3KfeDr+FKUHDEoZS5iGgYItKfpiOTuAYYUuhaPJaS6+e
+								9RpZvtjnLGc7dtU+eWnr2OyOpc4xNVbcs/nOUrMpF39lqWuBnQoY0KZS8KCZRb+x1GB/sdSdeXcsNd6w2G7aHUvNcsdS0wSP
+								EUkWOEFPvUj8KDG7u4dwLA+bTxLnrRJG1UJuZGITiBIVr8D6cR1DwGrkLGLrkUIaRDfXyKtrQt+Ud5kp2KilzW6C+XKUBFCb
+								GH6hCnwacqGqApO22QkG4K00bP0YMknltePMcXM+Q9SGx6LBMOo2xnxJfVdEef5P3C+DeTWJtfoNFfV8OLCYaAUuO/0ZBICy
+								jI3hFTtLFUkGkmL0PUSZxab49sYKErWXhbhETXoGtY3OkWVlBpI4JvfLYM6Y+yC7XawTvGOowahxpAM1XQSaN2dAVg/TD/uQ
+								/yarpQnBP7UaDTXFQKHFGW/71KhAByBzNfioxWt9JatzNIJfe6s98KTNfg7B5Mv0FuStNn9xR3Sxd1AIJayON4glP0lAMdRk
+								XcCGTfYwD6vz5Zw23hp48QklU/WzRawgDIgLyeQVOc4uhBm0HqQ3UBhv8ElKUsFuuVSsreEgbtStQUdqhXqXz0FXTaoDPj/n
+								iQl9L/Zt2ITwktf7UHhhxRfBfcpuj+0be2lfTYpKA1043y7OL8e0eTdF4wg4WucN+RwUgwNzIDInCOZpgZAzDxHR+gT78YVS
+								bt/45j30vZJAyjUYNYcULBRbaSuU45JixKTSfq0GTr6hFhXZF5ZtdIoFewjukGGI865F/jRKKm9R5/VKSHm9f4z4EMJjHcOa
+								nO0Wqn5sY85sk9ZLO+Y98tb6mgHCfV/tmpF33GcQHpNGFhg3I13NRFfs4iwVLfIXbU69LMepe3Hcfju0kqokxyiQ89KqNhug
+								FRBhJKU546K+/LwYJrjBjpTDGN3eZva7cPFNepUPIFAPKiEL/MPUHlq0MpLaRNbWJmsFntsHl1cMnEMLUGChrXxUIvdYuXHV
+								ekVcNV4l0FcpOOsAsoDAhWAfZBsrC37ybBLePBICnX8RPN2AbSUCNYhr7FvK8m+w+pnWT8DqlK9gtcRfYPX0HVjNvewWeea4
+								0v/pDqweuAOr5b+B1YdV1KJ9HVBPIpzuUpY1xrLh+x66OpOcUF3R7JtT3jC6OqNQHHTbpLi8mC0XNauXnvpMHa1jN5Z1pQuM
+								2zm6iTNXMDhMPiGt2o0qQZHOEgjdIHh775h/AKtX39b4mDh2tGeQBKx6I2mpLu6p7K81ohRM4EWOpXpsjwZv7My/J83fo7vR
+								KCkeDz1coY1Z1ryIX+i+sdJqPHMbXGOsX7kF/mlZO7OI4r+07DP+C6xG86CeFfiIX134H1v2UXF/0bIfvBIKSUT6xpyjjPog
+								N9KBru0pDiH2iHiL2FU3U5Nao5eTi7HCQQal/wO+deAIEstwrBC6sUqD1HUYdjqg4XCFVEy2fIsp8sMHQ40IseS9gtzkwthz
+								DIb59D7cj1xAsMnS3sFMYp0XGjQzbqsNKeUPsz4NhycJgMLbYXz4dlsbEcwpVTLGPpkvTsA5ZrDC5eZiWCk6c8e4CNIoCCVf
+								P9iD5Btd/VfLPoWNT/TzQuTvLfuCjyjuWvbnBTjH48/yimNX9TWN+OGUooT6qFSKK1xkyDbM0yS2FGPW3rNwDsL83bL/6XvL
+								fl1GTKBtxQY55+MHV12q65h2FjwGBS7xayccbwpc4cezREtThSu0q5M1ckXjhStMDs1FYTRPu2pSCCv7FoUfsYMdpaLKpdo6
+								k21ghPs1yoLQ7clwt7uk+95wdgWGLyfwY25LKE9myo/3bfjZy3QRL4QPnBoKwWLFn+0x51DLgsdl+lc0Eh/DUXIRunxr2Y8H
+								bNlH+1fLvgv3JXwpNb+SV8HY+bWt1CWnyhXw/yWDxPgng/RPF5pJbk/+L799+PJN9m1/WduaWNob2Mob2Nt//QcEeExPo2ti
+								qaudAUtXTlcxB4SNdNXkHR3tHauDXgMlAg1CBMLbBo5Oiv/W2x/rKQdDoowxQrmjMDnEE0Yg+rBIS7CfMt2wQewE1V/eX9OX
+								Tw3xASSQvpWejK2VtR2tjrX1XzbQf1wpvyhVvsVyjA7xLdEJHuFCw2C1or9SBGWlxThIULzjbIMNaYMSLmd57jBNMzAG/NMr
+								ILIz7KgzWFKbFEMgtBYLLqvDw/kjlVQLs5QqxFcHxdqjooMM1jMvOotgHN/Wc7kPlgf1xve6QoDN8usbHS4mqYAu8PGB0BNB
+								Y8BU85sbpoq89VbrgGqJiOoNVCPAbUu+zGfAHnzbVNBCwNt7JA+vDqos4DIF60dFP6h2pTUysiWl1ai6g41M1RGaUyZMSfzi
+								MH64RURLx7FsXBsMz9dnjJp/AcyXMwmGhyckWwl97QkVpQER5M0UonJG/RB6rx+5UGgFOtNFlNBRgi6nzjQOWmasfKkSWNbD
+								mEJLKtyLGRYk36ub85Ua2j0v9zNitqW8yRcrwzYWUh8r8TKWe1rcbpy0bsOvzt5/TKvXj7mpt/IyGBJw16RWeNecPRwqpkrs
+								0Qf3gFTwdC0Qcw2HkAv7UzkC94EiA71URTNezE3oVF0JzqojKOy4+IrlikPF4SfopaXd0xRd0ZGM1w5YjnrGQZT1n7U5kRkW
+								J2R4+q/g7VNcY9OzUtOlDldSE6zHUK4Olnpe/vRY1384Yovx5ThXB/878WGvo2tuYPftx7cGorg+y1k21IBTsDVc0B2saMKO
+								UKTcDEuh5yxgMYO6CSGSXQIkwxnrY/zRHgsZW9MDoWjrev3Re46NmP2DHAk3e6m3Vx9PLhVnQd93nlTtdBLUtepo1wenTcyN
+								sl0diQfrYx43beYo6nEywmtJ4DU1n6/MVZU8wkF5N6nJC/9pnlZYdkx6LafogrKBDveKsaK4iIurPveNFpu85GUdfZPFK0y9
+								R1WKc/44/rKc57SEFqtNNBjGurNCq1td9XnXfWqUsDM965/zKizXTR8Wa5Ta2pM12Vq1z7oum1sZ3UC3E3KmjKMc5Yi0Ehql
+								b7Uk+6Jev1RzLwHzGJffx2aaM2a/uhp06aUnpRgRykdECRagUGJv5VgxSI5SsL3CBtccb7Vuvr2BaEqbuH6V92w3QmywvzOT
+								NAvhMWzjieLowqxVkqajp2RKG3CYr1xT8hw8nLVMnnuVm0RE08y4irOdJvVb6q1OHIxtqKgQjyNUFNI4iaggEmGJThI5DbPX
+								8nJBAnFJvSdmmHPmhLHThtOOHnTTxyQPSiNGcjytAyyLsJjkfFDa6SWRiIKFTQqh4xLYpXQ72SlG3jI3e149LGTHhu6fVy/D
+								DXl5Um7Y2cbHmTPypCxMpl18ChTFhIEqoE2lMEOAoad0ivH24urgyK6co8PnAztLnZ9BlwqUGwSNoEoCu27iuzeoApn2j0sV
+								VKkY6WxTfMo3A8M/ZG3v7sbBwadWTJOwbF/S2YZVECvTh1E5gxOJ+6NSEMvV4i82kubxEO8vEfAKtRbZRLx+ERVVC1Iuo0rA
+								HikL79lmyBiCigaM9nANTU0+DTfqtHNS08HoCuqMbX12p/NF7XJiAQWaGlRIeaJ1uwJhNA2zMNaESrz1xGHMngXNhLLgJ7sV
+								WU9X7UXYVARJmpZJIwMM6vRYVHf0UlUwG5pMEM122GHCJaZYuY4eIJ4nMHOfcg3bqD6pcGlnZemNWSGM+3qZ9FuwVswOuWMV
+								dzkcxCZN9KHrzrzfqSl3fLvw8J0NZMNDUzwCLSOSWo5HjQUY4JbukNP7E2vhHidvolO8fnrqeheyqCz45RnZLxcCSD+eNPSs
+								bA3+nDXu5R4jK95Gh+q/AHYr2OOWkjOXA2MB8djNFl9F1h2mZ07JfCTqScO126hjAS4s3h432QL3aYy5Q5TDPkinUngvUrAu
+								6vPl8DdjNCJWqxyNIt4OElBKrNC29qChSh07kp3Mq+HeGKPGdMXAOM4x5XFbD3fSRlH1+k7xk8IbBV1sZjF7UmkH4M06m6fg
+								rZG7YKha6FsetuHSjREhpUX5RD69tth8hM8WgE1MbkQfDHlzxEE38sxjiBIlt/CD7GWalE2ueQuEjT2eOTP2bHX4TGXk0hHK
+								VZmL544yHOX4XAjIY4YWCtZ3GnohsNIwXrXJqjUHrPNK+I8injWPoDRGcvLxgfI8wF1Ojz89PsjTyCIM7uEKw9Dhou3hJhFP
+								HuRpiMbYa+ATFEwHvxWXCOry7ykP2zMuz6iwF+ACCfjw4mXG2d9zoYCAqR/cH3s+J27nsF+OO0L4b80j/5S6oNWXKyZLey0F
+								F2sDO827YxEwwD9t63+U0Jd7oB9M7AE3/KeV948yhfh6MvmFsTdgHED/5nu9hfqXmzPgxoA2ufeKhf21aS5gFEADyHvdIv2e
+								HSRgREBPxXvdIP+ewyJgRECbwntdo/yeaSFgREDnv3tdof4HH0DAMIBGdPeqRP8PtnSAYQDvl+5lhvkLmzTAEIBF6HulYP3c
+								OQwwAqBlz72UHv2WgQ9gQEBTm3v54/2WxQ1gQECjmHv54P9X2xjAYIA2K/eKJvivpiuAwQA9Su6VSfhbjiWAAQGNP+6VRvRf
+								bUAAgwG6ZtyriPi3PDQAAwJaUdwrj+S/GlMABgP0cbhXHelvuToABgQ0R7hXFdl/sEr416IDMKD/Xs4UPx/XDxgBcOLqvTYY
+								fz1/FTAK4CTNeymz/Hqu5u8vMZlsv5ip+PtLzDD7z8cMAkYAnO91rzCen0/7AowAOPzhXmVPfz0KAjAKYPP/vU7Ffj4KADAC
+								YP/7vVgkALrhATcFbHm9l6fMTxtgAQMAth/di1H5581Iv/9JKuv8HFX9/cMJ2fAXxNjvvwkBo59DVIARAOmFHy4LzH7OMvxr
+								VwKkvO8F7fjrBPjv7wwF518kP/91zQSQAbyXn8tv5wMBg/4zofePv871wQPA9B7g1oApknt9dv95wgQwwj/vDX8U7/MfXv/7
+								naKMOBj43ZOUX74WvlyO1/ncPfofguvNSQ=="/>
+				</foreignObject>
+				<svg viewBox="0 0 462.03 363.02" clip="rect(0 0 0 0)" height="217.814" overflow="hidden" preserveAspectRatio="none"
+						width="277.2" x="0" y="4.35512">
+					<mask id="mfid18">
+						<rect width="463" height="364" fill="white" stroke="none"/>
+					</mask>
+					<mask id="mfid19" fill="white" stroke="none">
+						<g>
+							<g mask="url(#mfid18)">
+								<rect width="462.03" height="363.02" id="mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<g mask="url(#mfid19)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 1, 0)">
+							<g fill="#ffffff">
+								<rect width="3.5128e+06" height="2.7737e+06" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid21">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid22" fill="white" stroke="none">
+						<g mask="url(#mfid19)">
+							<g mask="url(#mfid21)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid23">
+						<rect width="463" height="364" fill="white" stroke="none"/>
+					</mask>
+					<mask id="mfid24">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid25" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid24)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid26"
+								d="M899160,609600 L1143000,731520 M1143000,731520 L1204000,990600 M1204000,990600 L1036300,1196300 M1036300,1196300 L769620,1196300 M769620,1196300 L601980,990600 M601980,990600 L662940,731520 M662940,731520 L899160,609600 M899160,304800 L1379200,541020 M1379200,541020 L1501100,1059200 M1501100,1059200 L1165900,1470700 M1165900,1470700 L632460,1470700 M632460,1470700 L304800,1059200 M304800,1059200 L419100,541020 M419100,541020 L899160,304800 M899160,0 L1623100,342900 M1623100,342900 L1798300,1127800 M1798300,1127800 L1303000,1752600 M1303000,1752600 L502920,1752600 M502920,1752600 L0,1127800 M0,1127800 L182880,342900 M182880,342900 L899160,0"/>
+					</defs>
+					<g mask="url(#mfid25)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 113.5, 91.5)">
+							<g fill="#ffffff" stroke-width="7627.6" stroke="#d9d9d9" stroke-linejoin="round">
+								<use xlink:href="#mfid26" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid27">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid28" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid27)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid29">
+						<rect x="709" y="110" width="243" height="243" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid30" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid29)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid31"
+								d="M335280,457200 L883920,0 L1516400,388620 L1653500,1066800 L1196300,1546900 L716280,1242100 L0,1097300 L335280,457200"/>
+					</defs>
+					<g mask="url(#mfid30)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 116, 95)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#5b9bd5" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid31" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid32">
+						<rect x="709" y="110" width="243" height="243" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid33" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid32)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid34"
+								d="M289560,396240 L822960,0 L1432600,327660 L1562100,990600 L1112500,1417300 L640080,1196300 L0,1005800 L289560,396240"/>
+					</defs>
+					<g mask="url(#mfid33)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 124, 105)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#ed7d31" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid34" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid35">
+						<rect x="709" y="110" width="243" height="243" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid36" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid35)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid37"
+								d="M266700,388620 L746760,0 L1356400,281940 L1447800,929640 L1028700,1371600 L640080,990600 L0,944880 L266700,388620"/>
+					</defs>
+					<g mask="url(#mfid36)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 134, 111)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#ffd966" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid37" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid38">
+						<rect x="709" y="110" width="243" height="243" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid39" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid38)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid40"
+								d="M274320,388620 L762000,0 L1310600,327660 L1447800,929640 L1036300,1348700 L548640,1211600 L0,944880 L274320,388620"/>
+					</defs>
+					<g mask="url(#mfid39)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 132, 111)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid40" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid41">
+						<rect x="709" y="110" width="243" height="243" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid42" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid41)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid43"
+								d="M266700,373380 L845820,0 L1455400,342900 L1554500,998220 L1135400,1447800 L685800,1158200 L0,1028700 L266700,373380"/>
+					</defs>
+					<g mask="url(#mfid42)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 121, 103)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#7030a0" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid43" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid44">
+						<rect x="709" y="110" width="243" height="243" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid45" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid44)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid46"
+								d="M175260,335280 L891540,0 L1524000,403860 L1783100,1112500 L1188700,1539200 L655320,1402100 L0,1112500 L175260,335280"/>
+					</defs>
+					<g mask="url(#mfid45)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 115, 93)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#00b050" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid46" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid47">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid48" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid47)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid49">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid50" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid49)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid51">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid52" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid51)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid53">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid54" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid53)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid55">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid56" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid55)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid57">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid58" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid57)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<mask id="mfid59" fill-rule="evenodd" fill="white" stroke="none">
+						<rect x="0" y="0" width="462" height="363"/>
+					</mask>
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 194.18, 216.99)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,8,11,19" y="0" transform="translate(0,0)"
+											xml:space="preserve">0.4</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid60">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid61" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid60)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid62">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid63" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid62)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 194.18, 176.66)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,8,11,19" y="0" transform="translate(0,0)"
+											xml:space="preserve">0.6</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid64">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid65" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid64)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid66">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid67" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid66)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 194.18, 136.32)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,8,11,19" y="0" transform="translate(0,0)"
+											xml:space="preserve">0.8</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid68">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid69" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid68)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid70">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid71" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid70)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 194.18, 95.987)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,8,11,19" y="0" transform="translate(0,0)"
+											xml:space="preserve">1.0</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid72">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid73" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid72)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid74">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid75" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid74)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid76">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid77" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid76)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid78">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid79" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid78)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid80">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid81" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid80)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid82">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid83" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid82)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid84">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid85" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid84)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid86">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid87" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid86)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid88">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid89" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid88)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 206.28, 82.039)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,11,18,25,30,37,43,51" y="0" transform="translate(0,0)"
+											xml:space="preserve">H_crack</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid90">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid91" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid90)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid92">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid93" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid92)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 330.07, 138.13)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,11,18,25,30,37,43,51" y="0" transform="translate(0,0)"
+											xml:space="preserve">V_crack</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid94">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid95" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid94)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid96">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid97" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid96)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 354.37, 244.6)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,10,18,22,29,37,43,51" y="0" transform="translate(0,0)"
+											xml:space="preserve">Chipped</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid98">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid99" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid98)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid100">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid101" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid100)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 286.27, 329.98)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,13,20,25,32,37,44,52" y="0" transform="translate(0,0)"
+											xml:space="preserve">Marking</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid102">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid103" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid102)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid104">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid105" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid104)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 132.92, 329.98)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,9,17,21,28,33,40,44" y="0" transform="translate(0,0)"
+											xml:space="preserve">E_joint</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid106">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid107" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid106)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid108">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid109" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid108)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 54.828, 244.6)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,13,20,27,35,39,47,54" y="0" transform="translate(0,0)"
+											xml:space="preserve">Mending</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid110">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid111" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid110)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid112">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid113" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid112)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 81.617, 138.13)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,8,16,20,28,35,39,46,52" y="0"
+											transform="translate(0,0)" xml:space="preserve">Potholes</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid114">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid115" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid114)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid116">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid117" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid116)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid118" d="M0,0 L243840,1"/>
+					</defs>
+					<g mask="url(#mfid117)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 18, 34)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#5b9bd5" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid118" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid119">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid120" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid119)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid121">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid122" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid121)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 53.348, 37.973)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,11,22,31,42,49,57,64" y="0" transform="translate(0,0)"
+											xml:space="preserve">YOLOv5x</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid123">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid124" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid123)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid125" d="M0,0 L243840,1"/>
+					</defs>
+					<g mask="url(#mfid124)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 170, 34)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#ed7d31" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid125" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid126">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid127" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid126)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid128">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid129" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid128)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 205.7, 37.973)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,8,15,21,25,32,37,40,50,55,65,76,87" y="0"
+											transform="translate(0,0)" xml:space="preserve">Faster R-CNN</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid130">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid131" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid130)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid132" d="M0,0 L243840,1"/>
+					</defs>
+					<g mask="url(#mfid131)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 323, 34)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#ffd966" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid132" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid133">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid134" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid133)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid135">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid136" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid135)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 358.06, 37.973)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,8,17,28" y="0" transform="translate(0,0)"
+											xml:space="preserve">SSD</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid137">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid138" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid137)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid139" d="M0,0 L243840,1"/>
+					</defs>
+					<g mask="url(#mfid138)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 18, 54)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid139" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid140">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid141" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid140)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid142">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid143" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid142)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 53.348, 58.38)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,10,17,21,25,33,39,50,57,61" y="0"
+											transform="translate(0,0)" xml:space="preserve">RetinaNet</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid144">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid145" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid144)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid146" d="M0,0 L243840,1"/>
+					</defs>
+					<g mask="url(#mfid145)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 170, 54)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#7030a0" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid146" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid147">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid148" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid147)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid149">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid150" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid149)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 205.7, 58.38)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,9,14,19,23,30,37,44,48,59,66,70,75,86,93" y="0"
+											transform="translate(0,0)" xml:space="preserve">EfficentDet-D6</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<mask id="mfid151">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid152" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid151)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid153" d="M0,0 L243840,1"/>
+					</defs>
+					<g mask="url(#mfid152)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 323, 54)">
+							<g fill="#ffffff" stroke-width="15240" stroke="#00b050" stroke-linecap="round" stroke-linejoin="round">
+								<use xlink:href="#mfid153" fill="none"/>
+							</g>
+						</g>
+					</g>
+					<mask id="mfid154">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid155" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid154)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<mask id="mfid156">
+						<rect x="599" y="19" width="462" height="363" fill="white" stroke="none"
+								transform="matrix(1, 0, 0, 1, -599, -19)"/>
+					</mask>
+					<mask id="mfid157" fill="white" stroke="none">
+						<g mask="url(#mfid23)">
+							<g mask="url(#mfid156)">
+								<use xlink:href="#mfid20"/>
+							</g>
+						</g>
+					</mask>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<!-- GetDC -->
+					<g mask="url(#mfid59)">
+						<g transform="matrix(1, 0, 0, 1, 358.06, 58.38)">
+							<g stroke="#000000" stroke-miterlimit="10" fill="none">
+								<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+										font-size="15">
+									<text stroke="none" fill="#595959" x="0,11,22,31,42,47,57,68,78" y="0"
+											transform="translate(0,0)" xml:space="preserve">YOLO-RDD</text>
+								</g>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+					<defs>
+						<path id="mfid158" d="M0,0 L3520400,0 L3520400,2766100 L0,2766100 Z"/>
+					</defs>
+					<g mask="url(#mfid23)">
+						<g transform="matrix(0.00013123, 0, 0, 0.00013123, 0.5, 0.5)">
+							<g fill="#ffffff" stroke-width="7627.6" stroke="#d9d9d9" stroke-linejoin="round">
+								<use xlink:href="#mfid158" fill="none"/>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="4.35512" width="277.2" height="217.814" class="st1"/>
+		</g>
+	</g>
+</svg>

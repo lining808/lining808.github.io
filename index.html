@@ -187,159 +187,7 @@
     <div class="excerpt">
         <div class="content" v-pre>
             
-            <h1 id="0-说明"><a href="#0-说明" class="headerlink" title="0.说明"></a>0.说明</h1><p>本存储库是通过深度学习目标检测技术来识别路面病害类别的一个完整实现。具体的，通过改进的YOLOv5算法提升检测精度达到现有先进算法最好成绩，同时在Windows端，web端，Android端进行部署。完整的实现路面病害检测的任务。</p>
-<h1 id="1-摘要"><a href="#1-摘要" class="headerlink" title="1.摘要"></a>1.摘要</h1><p>该代码库是    论文的源代码，</p>
-<p>引用请使用论文</p>
-<p>是通过对YOLOv5算法改进的<strong>YOLO-RDD算法</strong>实现的一个<strong>路面病害检测系统</strong>。在自己的数据集上取得了比第二名yolov5x算法的**MAP0.5高出5.4%**同时检测速度有略微提升。并且实现了多端的部署，其中包括在win和web端的部署，在安卓端部署正在进行中…。</p>
-<p>本代码库的<strong>文件结构</strong>及其说明：</p>
-<pre><code class="仓库结构">|-- win
-    |-- data		voc数据集信息
-    |-- inference	输入输出存放文件夹
-    |-- models		模型模块函数
-    |-- runs		训练测试结果存放文件夹
-    |-- UI			UI界面
-    |-- utils		模型其他函数
-    |-- weights		模型权重
-    |-- detect.py	模型检测函数
-    |-- detect_visual.py
-    |-- main.py		界面运行主函数
-    |-- train.py	模型训练函数
-    |-- test.py		模型测试函数
-|-- web
-    |-- back-end	后端
-        |-- 其他同上
-        |-- app.py	web运行主界面
-    |-- front-end	前端
-|-- images	readme插图
-|-- requirements.txt	python环境版本
-|-- readme.md	readme文档
-</code></pre>
-<h1 id="2-论文概述"><a href="#2-论文概述" class="headerlink" title="2.论文概述"></a>2.论文概述</h1><p>改进算法对比其他先进目标检测算法的<strong>性能指标</strong>如下表所示</p>
-<table>
-<thead>
-<tr>
-<th>算法</th>
-<th>主干网络</th>
-<th>输入大小</th>
-<th>F<del>1</del> score</th>
-<th><a href="mailto:&#109;&#x41;&#80;&#64;&#48;&#x2e;&#53;">&#109;&#x41;&#80;&#64;&#48;&#x2e;&#53;</a></th>
-<th><a href="mailto:&#x6d;&#65;&#80;&#64;&#48;&#46;&#53;">&#x6d;&#65;&#80;&#64;&#48;&#46;&#53;</a>:0.95</th>
-<th>speed(ms)</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Faster R-CNN</td>
-<td>Resnet101</td>
-<td>1000*600</td>
-<td>0.845</td>
-<td>0.864</td>
-<td>0.743</td>
-<td>892.3</td>
-</tr>
-<tr>
-<td>SSD</td>
-<td>Resnet101</td>
-<td>513*513</td>
-<td>0.784</td>
-<td>0.798</td>
-<td>0.689</td>
-<td>349.7</td>
-</tr>
-<tr>
-<td>RetinaNet</td>
-<td>C49s</td>
-<td>640*640</td>
-<td>0.811</td>
-<td>0.829</td>
-<td>0.733</td>
-<td>119.8</td>
-</tr>
-<tr>
-<td>EfficientDet-D1</td>
-<td>Efficientnet-b1</td>
-<td>640*640</td>
-<td>0.827</td>
-<td>0.834</td>
-<td>0.74</td>
-<td>85.7</td>
-</tr>
-<tr>
-<td>YOLOv5x</td>
-<td>CSPNet</td>
-<td>640*640</td>
-<td>0.854</td>
-<td>0.884</td>
-<td>0.802</td>
-<td>39.1</td>
-</tr>
-<tr>
-<td>YOLO-RDD</td>
-<td>CSPNet</td>
-<td>640*640</td>
-<td><strong>0.885</strong></td>
-<td>0.931</td>
-<td><strong>0.864</strong></td>
-<td><strong>38.8</strong></td>
-</tr>
-<tr>
-<td>YOLO-RDD+TTA</td>
-<td>CSPNet</td>
-<td>640*640</td>
-<td>0.873</td>
-<td><strong>0.939</strong></td>
-<td>0.861</td>
-<td>89.3</td>
-</tr>
-</tbody></table>
-<p><strong>注：</strong>speed为模型检测单张图片的平均时间，为在<strong>单个1080TI</strong>下进行。</p>
-<p>下图为<strong>5种典型算法</strong>在7种类别路面病害数据集上的<strong>mAP0.5</strong>的雷达图。</p>
-<p><img src="/./pic/leida.svg"></p>
-<p>改进的<strong>网络结构</strong>如下图所示：</p>
-<p><img src="/./pic/YOLO-RDD.svg"></p>
-<p>具体改进请参考论文。</p>
-<h1 id="3-代码运行"><a href="#3-代码运行" class="headerlink" title="3.代码运行"></a>3.代码运行</h1><h2 id="3-1-环境配置"><a href="#3-1-环境配置" class="headerlink" title="3.1 环境配置"></a>3.1 环境配置</h2><p>本文网络<strong>训练好的模型</strong>以及训练过程可以在链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1gHQBesQyN2HqKgM9Y8w0Pg">https://pan.baidu.com/s/1gHQBesQyN2HqKgM9Y8w0Pg</a> 提取码：yolo 下载，将下载的权重best.pt放在weights文件夹下即可。数据集由于提供公司不允许开源，因此无法在此展示。后期公司同意开源将第一时间开源。</p>
-<h3 id="a-win端部署"><a href="#a-win端部署" class="headerlink" title="a. win端部署"></a>a. win端部署</h3><p>需要的软件：Pycharm、Anaconda（可选）</p>
-<p>python环境见：requirements.txt</p>
-<p>安装运行：</p>
-<pre><code class="bash">$ pip install -r requirements.txt
-</code></pre>
-<h3 id="b-web端部署"><a href="#b-web端部署" class="headerlink" title="b. web端部署"></a>b. web端部署</h3><p>需要的软件：Visual Studio Code、Pycharm、Anaconda（可选）</p>
-<p>在 VUE 前端项目下，先安装依赖：</p>
-<pre><code class="bash">npm install
-</code></pre>
-<p>然后运行前端：</p>
-<pre><code class="bash">npm run serve
-</code></pre>
-<p>python环境见requirements.txt</p>
-<p>安装运行：</p>
-<pre><code class="bash">$ pip install -r requirements.txt
-</code></pre>
-<h3 id="c-Android端部署"><a href="#c-Android端部署" class="headerlink" title="c. Android端部署"></a>c. Android端部署</h3><p>待更新。。。</p>
-<h2 id="3-2-运行"><a href="#3-2-运行" class="headerlink" title="3.2  运行"></a>3.2  运行</h2><p>配置完环境后，通过以下代码进行对数据集训练：</p>
-<pre><code class="bash">$ python train.py --data data/crack.yaml --cfg yolo-rdd.yaml --weights &#39;&#39; --batch-size 8
-</code></pre>
-<p>通过以下代码进行测试：</p>
-<pre><code class="bash">$ python test.py
-</code></pre>
-<h3 id="a-win端"><a href="#a-win端" class="headerlink" title="a. win端"></a>a. win端</h3><p>可以直接使用如下代码运行，</p>
-<pre><code class="bash">$ python main.py
-</code></pre>
-<p>或使用如下代码编译为exe文件运行</p>
-<pre><code class="bash">$ pyinstaller -F -w main.py
-</code></pre>
-<p>编译为exe文件，可以直接双击运行。运行结果如下图：</p>
-<p><img src="/./pic/win.jpg"></p>
-<h3 id="b-web端"><a href="#b-web端" class="headerlink" title="b. web端"></a>b. web端</h3><p>在pycharm中运行以下代码：</p>
-<pre><code class="bash">$ python app.py
-</code></pre>
-<p>同时在Visual Studio Code中运行：</p>
-<pre><code class="bash">$ npm run serve
-</code></pre>
-<p>用浏览器打开<a target="_blank" rel="noopener" href="http://localhost:8080/%E3%80%82%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C%E5%A6%82%E4%B8%8B%E5%9B%BE%EF%BC%9A">http://localhost:8080/。运行结果如下图：</a></p>
-<p><img src="/./pic/web.jpg"></p>
-<h3 id="c-Android端部署-1"><a href="#c-Android端部署-1" class="headerlink" title="c. Android端部署"></a>c. Android端部署</h3><p>待更新。。。</p>
-<h1 id="4-致谢"><a href="#4-致谢" class="headerlink" title="4.致谢"></a>4.致谢</h1><p>该代码库借鉴了以下开源代码库进行实现，在此表示<strong>衷心的感谢</strong>！！！</p>
-<p>包括：<a target="_blank" rel="noopener" href="https://github.com/ultralytics/yolov5">https://github.com/ultralytics/yolov5</a></p>
+            <p><strong>YOLO-RDD算法</strong>实现的一个<strong>路面病害检测系统</strong>。在自己的数据集上取得了比第二名yolov5x算法的**MAP0.5高出5.4%**同时检测速度有略微提升。并且实现了多端的部署，其中包括在win和web端的部署，在安卓端部署正在进行中…。</p>
 
             
         </div>
@@ -353,7 +201,7 @@
         
         <span class="tag">
             
-            <a href="/tags/深度学习/" style="color: #00bcd4">
+            <a href="/tags/深度学习/" style="color: #03a9f4">
                 深度学习
             </a>
         </span>
@@ -378,25 +226,24 @@
     <div class="excerpt">
         <div class="content" v-pre>
             
-            <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+            <p>Welcome to <strong>Hexo</strong>! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.</p>
 
             
         </div>
     </div>
     <div class="post-tags">
         
+        <span class="icon">
+            <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/欢迎/" style="color: #ff7d73">
+                欢迎
+            </a>
+        </span>
         
     </div>
     <a href="/2022/09/02/hello-world/" class="go-post">阅读全文</a>

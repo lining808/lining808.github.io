@@ -212,8 +212,8 @@
 <th>主干网络</th>
 <th>输入大小</th>
 <th>F<del>1</del> score</th>
-<th><a href="mailto:&#109;&#x41;&#80;&#64;&#48;&#x2e;&#53;">&#109;&#x41;&#80;&#64;&#48;&#x2e;&#53;</a></th>
-<th><a href="mailto:&#x6d;&#65;&#80;&#64;&#48;&#46;&#53;">&#x6d;&#65;&#80;&#64;&#48;&#46;&#53;</a>:0.95</th>
+<th><a href="mailto:&#x6d;&#x41;&#80;&#64;&#48;&#x2e;&#53;">&#x6d;&#x41;&#80;&#64;&#48;&#x2e;&#53;</a></th>
+<th><a href="mailto:&#109;&#x41;&#x50;&#x40;&#48;&#46;&#x35;">&#109;&#x41;&#x50;&#x40;&#48;&#46;&#x35;</a>:0.95</th>
 <th>speed(ms)</th>
 </tr>
 </thead>
@@ -283,9 +283,12 @@
 </tbody></table>
 <p><strong>注：</strong>speed为模型检测单张图片的平均时间，为在<strong>单个1080TI</strong>下进行。</p>
 <p>下图为<strong>5种典型算法</strong>在7种类别路面病害数据集上的<strong>mAP0.5</strong>的雷达图。</p>
-<p><img src="/./pic/leida.svg"></p>
+<img src="/2022/09/03/YOLO-RDD/leida.svg" style="zoom:150%;">
+
+
+
 <p>改进的<strong>网络结构</strong>如下图所示：</p>
-<p><img src="/./pic/YOLO-RDD.svg"></p>
+<p><img src="/2022/09/03/YOLO-RDD/YOLO-RDD.svg"></p>
 <p>具体改进请参考论文。</p>
 <h1 id="3-代码运行"><a href="#3-代码运行" class="headerlink" title="3.代码运行"></a>3.代码运行</h1><h2 id="3-1-环境配置"><a href="#3-1-环境配置" class="headerlink" title="3.1 环境配置"></a>3.1 环境配置</h2><p>本文网络<strong>训练好的模型</strong>以及训练过程可以在链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1gHQBesQyN2HqKgM9Y8w0Pg">https://pan.baidu.com/s/1gHQBesQyN2HqKgM9Y8w0Pg</a> 提取码：yolo 下载，将下载的权重best.pt放在weights文件夹下即可。数据集由于提供公司不允许开源，因此无法在此展示。后期公司同意开源将第一时间开源。</p>
 <h3 id="a-win端部署"><a href="#a-win端部署" class="headerlink" title="a. win端部署"></a>a. win端部署</h3><p>需要的软件：Pycharm、Anaconda（可选）</p>
@@ -318,7 +321,7 @@
 <pre><code class="bash">$ pyinstaller -F -w main.py
 </code></pre>
 <p>编译为exe文件，可以直接双击运行。运行结果如下图：</p>
-<p><img src="/./pic/win.jpg"></p>
+<p><img src="/2022/09/03/YOLO-RDD/win.jpg"></p>
 <h3 id="b-web端"><a href="#b-web端" class="headerlink" title="b. web端"></a>b. web端</h3><p>在pycharm中运行以下代码：</p>
 <pre><code class="bash">$ python app.py
 </code></pre>
@@ -326,7 +329,7 @@
 <pre><code class="bash">$ npm run serve
 </code></pre>
 <p>用浏览器打开<a target="_blank" rel="noopener" href="http://localhost:8080/%E3%80%82%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C%E5%A6%82%E4%B8%8B%E5%9B%BE%EF%BC%9A">http://localhost:8080/。运行结果如下图：</a></p>
-<p><img src="/./pic/web.jpg"></p>
+<p><img src="/2022/09/03/YOLO-RDD/web.jpg"></p>
 <h3 id="c-Android端部署-1"><a href="#c-Android端部署-1" class="headerlink" title="c. Android端部署"></a>c. Android端部署</h3><p>待更新。。。</p>
 <h1 id="4-致谢"><a href="#4-致谢" class="headerlink" title="4.致谢"></a>4.致谢</h1><p>该代码库借鉴了以下开源代码库进行实现，在此表示<strong>衷心的感谢</strong>！！！</p>
 <p>包括：<a target="_blank" rel="noopener" href="https://github.com/ultralytics/yolov5">https://github.com/ultralytics/yolov5</a></p>
