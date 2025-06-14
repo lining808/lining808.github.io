@@ -8,7 +8,7 @@
         <meta name="author" content="Lining">
         <meta name="description" content="">
         <meta name="keywords" content="">
-        <link rel="icon" href="tou.jpg">
+        <link rel="icon" href="tou.png">
         <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
         <script src="https://cdn.staticfile.org/font-awesome/6.1.1/js/all.min.js"></script>
         
@@ -38,11 +38,6 @@
             <span>&ensp;主页</span>
         </a>
         
-        <a href="/about">
-            <i class="fa-solid fa-id-card fa-fw"></i>
-            <span>&ensp;关于</span>
-        </a>
-        
         <a href="/archives">
             <i class="fa-solid fa-box-archive fa-fw"></i>
             <span>&ensp;归档</span>
@@ -56,6 +51,11 @@
         <a href="/tags">
             <i class="fa-solid fa-tags fa-fw"></i>
             <span>&ensp;标签</span>
+        </a>
+        
+        <a href="/about">
+            <i class="fa-solid fa-id-card fa-fw"></i>
+            <span>&ensp;关于</span>
         </a>
         
     </div>
@@ -74,15 +74,6 @@
                         <i class="fa-solid fa-house fa-fw"></i>
                     </div>
                     <div style="min-width: 100px; max-width: 150%; width: 20%">主页</div>
-                </div>
-            </a>
-            
-            <a href="/about">
-                <div class="item">
-                    <div style="min-width: 20px; max-width: 50px; width: 10%">
-                        <i class="fa-solid fa-id-card fa-fw"></i>
-                    </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">关于</div>
                 </div>
             </a>
             
@@ -113,6 +104,15 @@
                 </div>
             </a>
             
+            <a href="/about">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-id-card fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">关于</div>
+                </div>
+            </a>
+            
         </div>
         </transition>
     </div>
@@ -120,7 +120,7 @@
                     </div>
                     <div id="main">
                         <div id="home-head">
-    <div id="home-background" style="background-image: url(https://img1.imgtp.com/2023/01/31/QI92ujPk.jpg)"></div>
+    <div id="home-background" style="background-image: url(background.jpg)"></div>
     
     <div id="home-info" class="home-info" @click="home_click">
         <span class="loop"></span>
@@ -144,30 +144,243 @@
             
 
 <div class="post">
-    <a href="/2023/07/28/hello-world/">
-        <h2 class="post-title">Hello World</h2>
+    <a href="/2024/03/06/ai_stack/">
+        <h2 class="post-title">AI算法技术栈</h2>
     </a>
     <div class="category-and-date">
+        
+        <span class="category">
+            <a href="/categories/技术/">
+                <span class="icon">
+                    <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
+                </span>
+                技术
+            </a>
+        </span>
         
         <span class="date">
             <span class="icon">
                 <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
             </span>
-            2023/7/28
+            2024/3/6
         </span>
     </div>
     <div class="excerpt">
         <div class="content" v-pre>
             
-            <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+            <h2 id="AI算法技术栈"><a href="#AI算法技术栈" class="headerlink" title="AI算法技术栈"></a>AI算法技术栈</h2><p>本人根据自身知识储备绘制了该AI算法技术栈，主要包含计算机视觉、语音识别、自然语言处理和强化学习四大块以及设计的硬件、算法和应用。由于自身知识储备微薄，此图仅供参考，图中存在的问题希望大家指正。</p>
             
         </div>
     </div>
     <div class="post-tags">
         
+        <span class="icon">
+            <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/AI/" style="color: #03a9f4">
+                AI
+            </a>
+        </span>
         
     </div>
-    <a href="/2023/07/28/hello-world/" class="go-post">阅读全文</a>
+    <a href="/2024/03/06/ai_stack/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
+    <a href="/2024/03/06/cs_ebook/">
+        <h2 class="post-title">计算机经典书籍推荐清单</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="category">
+            <a href="/categories/推荐/">
+                <span class="icon">
+                    <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
+                </span>
+                推荐
+            </a>
+        </span>
+        
+        <span class="date">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
+            </span>
+            2024/3/6
+        </span>
+    </div>
+    <div class="excerpt">
+        <div class="content" v-pre>
+            
+            <p>本储存库是一些高质量的计算机科学与技术书籍推荐书单，需要学习的可以按照此书单进行学习进阶，包含了计算机大多数软件相关方向。而且敢承诺一直更新。项目地址：<a target="_blank" rel="noopener" href="https://github.com/lining808/CS-Ebook">https://github.com/lining808/CS-Ebook</a></p>
+<p><img src="/images/images/bg.jpg" alt="在这里插入图片描述"></p>
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        <span class="icon">
+            <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/CS/" style="color: #03a9f4">
+                CS
+            </a>
+        </span>
+        
+    </div>
+    <a href="/2024/03/06/cs_ebook/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
+    <a href="/2023/08/24/jeston/">
+        <h2 class="post-title">Jetson Nano 系统安装及环境配置</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="category">
+            <a href="/categories/教程/">
+                <span class="icon">
+                    <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
+                </span>
+                教程
+            </a>
+        </span>
+        
+        <span class="date">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
+            </span>
+            2023/8/24
+        </span>
+    </div>
+    <div class="excerpt">
+        <div class="content" v-pre>
+            
+            <h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>本教程详细介绍了Jetson Nano系统的安装烧录和深度学习环境配置。</p>
+<h1 id="VMware16虚拟机安装"><a href="#VMware16虚拟机安装" class="headerlink" title="VMware16虚拟机安装"></a>VMware16虚拟机安装</h1><p>SDKManager基于Ubuntu完成JetsonNano镜像系统的烧录。因此需要通过VMware虚拟机安装Ubuntu系统。注意硬盘尽可能分配大一些，最小80GB。虚拟机安装Ubuntu系统的过程不再赘述。</p>
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        <span class="icon">
+            <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/Jetson/" style="color: #03a9f4">
+                Jetson
+            </a>
+        </span>
+        
+    </div>
+    <a href="/2023/08/24/jeston/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
+    <a href="/2023/08/11/docker/">
+        <h2 class="post-title">Docker常用命令大全</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="category">
+            <a href="/categories/教程/">
+                <span class="icon">
+                    <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
+                </span>
+                教程
+            </a>
+        </span>
+        
+        <span class="date">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
+            </span>
+            2023/8/11
+        </span>
+    </div>
+    <div class="excerpt">
+        <div class="content" v-pre>
+            
+            <h2 id="docker-基础命令（系统级）"><a href="#docker-基础命令（系统级）" class="headerlink" title="docker 基础命令（系统级）"></a>docker 基础命令（系统级）</h2><p>启动docker</p>
+<pre><code class="bash">systemctl start docker
+service docker start
+</code></pre>
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        <span class="icon">
+            <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/Docker/" style="color: #ff7d73">
+                Docker
+            </a>
+        </span>
+        
+    </div>
+    <a href="/2023/08/11/docker/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
+    <a href="/2023/08/03/python/">
+        <h2 class="post-title">Python基础环境配置</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="category">
+            <a href="/categories/教程/">
+                <span class="icon">
+                    <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
+                </span>
+                教程
+            </a>
+        </span>
+        
+        <span class="date">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
+            </span>
+            2023/8/3
+        </span>
+    </div>
+    <div class="excerpt">
+        <div class="content" v-pre>
+            
+            <h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>本教程为一个python入门教程，面向初学者，因此内容较为详细。主要内容为python环境配置教程，包括Anaconda，PyCharm，Jupyter notebook的安装与配置，及其常用技巧。教程以Windows系统为平台作演示，其他系统可能存在少许差异。</p>
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        <span class="icon">
+            <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/Python/" style="color: #00bcd4">
+                Python
+            </a>
+        </span>
+        
+    </div>
+    <a href="/2023/08/03/python/" class="go-post">阅读全文</a>
 </div>
 
              
@@ -193,7 +406,7 @@
         <div id="card-div">
     <div class="card-style" style="width: 300px">
         <div class="avatar">
-            <img src="tou.jpg " alt="avatar">
+            <img src="tou.png " alt="avatar">
         </div>
         <div class="name">
             Lining
@@ -201,38 +414,44 @@
         <div class="descriptions">
             
             <div class="description">
-                Description...
+                这个人很懒，什么也没留下...
             </div>
             
         </div>
         <div class="icon-links">
             
             <span class="icon-link">
-                <a target="_blank" rel="noopener" href="https://github.com/lining808/lining808.github.io">
-                    <i class="fa-solid fa-twitter fa-fw"></i>
+                <a target="_blank" rel="noopener" href="https://github.com/lining808">
+                    <i class="fa-brands fa-github fa-fw"></i>
                 </a>
             </span>
             
             <span class="icon-link">
-                <a target="_blank" rel="noopener" href="https://github.com/lining808/lining808.github.io">
-                    <i class="fa-solid fa-comments fa-fw"></i>
+                <a target="_blank" rel="noopener" href="https://space.bilibili.com/406352257">
+                    <i class="fa-brands fa-bilibili fa-fw"></i>
                 </a>
             </span>
             
             <span class="icon-link">
-                <a target="_blank" rel="noopener" href="https://github.com/lining808/lining808.github.io">
-                    <i class="fa-solid fa-github fa-fw"></i>
+                <a target="_blank" rel="noopener" href="http://lining.wiki/">
+                    <i class="fa-brands fa-tiktok fa-fw"></i>
                 </a>
             </span>
             
             <span class="icon-link">
-                <a target="_blank" rel="noopener" href="https://github.com/lining808/lining808.github.io">
-                    <i class="fa-solid fa-tiktok fa-fw"></i>
+                <a target="_blank" rel="noopener" href="http://lining.wiki/">
+                    <i class="fa-solid fa-envelope fa-fw"></i>
                 </a>
             </span>
             
             <span class="icon-link">
-                <a target="_blank" rel="noopener" href="https://github.com/lining808/lining808.github.io">
+                <a target="_blank" rel="noopener" href="http://lining.wiki/">
+                    <i class="fa-brands fa-twitter fa-fw"></i>
+                </a>
+            </span>
+            
+            <span class="icon-link">
+                <a target="_blank" rel="noopener" href="http://lining.wiki/about">
                     <i class="fa-solid fa-circle-info fa-fw"></i>
                 </a>
             </span>
@@ -241,7 +460,7 @@
         <div class="friend-links">
             
             <div class="friend-link">
-                <a target="_blank" rel="noopener" href="https://github.com/lining808/lining808.github.io">
+                <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_35789981">
                     CSDN
                 </a>
             </div>
@@ -256,7 +475,7 @@
 <footer id="footer">
     <div class="footer-wrap">
         <div>
-            © 20xx - 2023 Lining&#39;s Blog
+            © 2022 - 2024 Lining&#39;s Blog
             <span class="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
@@ -264,6 +483,12 @@
         </div>
         <div></div>
 
+        
+        <div>
+            备案号：<a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">
+                陕ICP备2023009770号
+            </a>
+        </div>
         
     </div>
 </footer>
@@ -279,5 +504,20 @@
         <script src="/js/showimg.js"></script>
         
 
-    </body>
+		<canvas
+			id="fireworks"
+			style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 32767"
+		></canvas>
+		<script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
+		<script src="/js/fireworks.min.js"></script>
+		<canvas
+			id="background"
+			style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: -1"
+		></canvas>
+		<script src="/js/background.min.js"></script>
+		<canvas id="digitalrain"
+		style="position: fixed; right: 0px; bottom: 0px; min-width: 100%; min-height: 100%; height: auto; width: auto; z-index: -1"
+		></canvas>
+		<script src="/js/digitalrain.js"></script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":null,"use":"live2d-widget-model-hijiki","display":null,"position":"right","width":150,"height":300,"mobile":null,"show":false,"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>

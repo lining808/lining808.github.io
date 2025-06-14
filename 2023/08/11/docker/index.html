@@ -1,0 +1,560 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <title>Docker常用命令大全 | Lining&#39;s Blog</title>
+        <meta name="author" content="Lining">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="icon" href="tou.png">
+        <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
+        <script src="https://cdn.staticfile.org/font-awesome/6.1.1/js/all.min.js"></script>
+        
+        <link rel="stylesheet" href="/css/fonts.min.css">
+        <link rel="stylesheet" href="/css/particlex.css">
+        
+        <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
+    <meta name="generator" content="Hexo 6.3.0"></head>
+    <body>
+        <div id="loading" style="height:100vh;width:100vw;position:fixed;display:flex;z-index:200;justify-content:space-between;background:#fff;transition:opacity 0.3s ease-out"><div style="position:fixed;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center"><div id="loadcontent" style="width:50vmin;height:50vmin;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px #a3ddfb;text-align:center"><div><h2>LOADING...</h2><p style="word-break:keep-all">加载过慢请开启缓存(浏览器默认开启)</p><div><img alt="loading" src="/loading.gif"></div></div></div></div></div>
+        <div id="layout">
+            <i data-fa-symbol="calendar-solid" class="fa-solid fa-calendar fa-fw"></i>
+            <i data-fa-symbol="bookmark-solid" class="fa-solid fa-bookmark fa-fw"></i>
+            <i data-fa-symbol="tags-solid" class="fa-solid fa-tags fa-fw"></i>
+            <transition name="into">
+                <div v-show="show_page" style="display: -not-none">
+                    <div id="menu_show">
+                         
+<nav id="menu">
+    <div class="desktop-menu">
+        <a href="/">
+            <span class="title">Lining's Blog</span>
+        </a>
+        
+        <a href="/">
+            <i class="fa-solid fa-house fa-fw"></i>
+            <span>&ensp;主页</span>
+        </a>
+        
+        <a href="/archives">
+            <i class="fa-solid fa-box-archive fa-fw"></i>
+            <span>&ensp;归档</span>
+        </a>
+        
+        <a href="/categories">
+            <i class="fa-solid fa-bookmark fa-fw"></i>
+            <span>&ensp;分类</span>
+        </a>
+        
+        <a href="/tags">
+            <i class="fa-solid fa-tags fa-fw"></i>
+            <span>&ensp;标签</span>
+        </a>
+        
+        <a href="/about">
+            <i class="fa-solid fa-id-card fa-fw"></i>
+            <span>&ensp;关于</span>
+        </a>
+        
+    </div>
+    <div :class="'phone-menu ' + menu_show" id="phone-menu">
+        <div class="curtain" @click="menu_show = !menu_show" v-show="menu_show"></div>
+        <div :class="'title'" @click="menu_show = !menu_show">
+            <i class="fa-solid fa-bars fa-fw"></i>
+            <span>&emsp;Lining's Blog</span>
+        </div>
+        <transition name="slide">
+        <div class="items" v-show="menu_show">
+            
+            <a href="/">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-house fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">主页</div>
+                </div>
+            </a>
+            
+            <a href="/archives">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-box-archive fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">归档</div>
+                </div>
+            </a>
+            
+            <a href="/categories">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-bookmark fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">分类</div>
+                </div>
+            </a>
+            
+            <a href="/tags">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-tags fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">标签</div>
+                </div>
+            </a>
+            
+            <a href="/about">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-id-card fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">关于</div>
+                </div>
+            </a>
+            
+        </div>
+        </transition>
+    </div>
+</nav>
+                    </div>
+                    <div id="main">
+                        
+<div class="article">
+    <div>
+        <h1>Docker常用命令大全 </h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
+            </span>
+            2023/8/11
+        </span>
+        
+        <span class="category">
+            <a href="/categories/教程/">
+                <span class="icon">
+                    <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
+                </span>
+                教程
+            </a>
+        </span>
+        
+        
+        <span class="tags">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/Docker/" style="color: #03a9f4">
+                    Docker
+                </a>
+            </span>
+            
+        </span>
+        
+	<!-- 开始添加字数统计-->
+	
+	    	<div style="margin-top:10px;">
+	    <span class="post-time">
+	      <span class="post-meta-item-icon">
+	        <i class="fa-solid fa-keyboard"></i>
+	        <span class="post-meta-item-text">  &nbsp;字数统计:&nbsp;</span>
+	        <!-- 安装插件npm install hexo-wordcount --save -->
+	        <span class="post-count">2.6k字</span>
+	      </span>
+	    </span>
+	
+	    <span class="post-time">
+	      &nbsp;&nbsp;
+	      <span class="post-meta-item-icon">
+	        <i class="fa-solid fa-clock"></i>
+	        <span class="post-meta-item-text">  &nbsp;阅读时长:&nbsp;</span>
+	        <span class="post-count">10分钟</span>
+	      </span>
+	    </span>
+
+	    <span class="post-time">
+		&nbsp;&nbsp;
+		
+    		    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+		    <i class="fa-solid fa-eye"></i>
+    		    <span id="busuanzi_container_site_pv">&nbsp;&nbsp;浏览量:&nbsp;<span id="busuanzi_value_page_pv"></span>次</span>
+	        
+	    </span>
+	</div>
+
+	
+	<!-- 添加完成 -->
+    </div>
+    <div class="content" v-pre>
+        <h2 id="docker-基础命令（系统级）"><a href="#docker-基础命令（系统级）" class="headerlink" title="docker 基础命令（系统级）"></a>docker 基础命令（系统级）</h2><p>启动docker</p>
+<pre><code class="bash">systemctl start docker
+service docker start
+</code></pre>
+<span id="more"></span>
+<p>关闭docker</p>
+<pre><code class="bash">systemctl stop docker
+service docker stop
+</code></pre>
+<p>重启docker</p>
+<pre><code class="bash">systemctl restart docker
+service docker restart
+</code></pre>
+<p>docker设置自启动</p>
+<pre><code class="bash">systemctl enable docker
+</code></pre>
+<p>查看docker 运行状态   ——如果是在运行中 输入命令后 会看到绿色的active</p>
+<pre><code class="bash">systemctl status docker
+</code></pre>
+<p>查看docker 版本号信息</p>
+<pre><code class="bash">docker version
+docker info
+</code></pre>
+<p>docker 帮助命令  ——-忘记了某些命令便可使用此进行查看与回顾</p>
+<pre><code class="bash">docker --help
+</code></pre>
+<p>比如 咱忘记了 拉取命令 不知道可以带哪些参数 咱可以这样使用</p>
+<pre><code class="bash">docker pull --help
+</code></pre>
+<p>配置文件        &#x2F;etc&#x2F;docker&#x2F;daemon.json</p>
+<pre><code class="json">&#123;   # 修改镜像源
+    &quot;registry-mirrors&quot;:[&quot;https://7rq4plav.mirror.aliyuncs.com&quot;],
+    # 仓库地址
+    &quot;insecure-registries&quot;:[&quot;172.16.1.208:30002&quot;],
+    # 数据存放目录
+    &quot;data-root&quot;: &quot;/data/docker&quot;,
+    # 启用debug模式
+    &quot;debug&quot;: true,
+    # runtime
+    &quot;default-runtime&quot;: &quot;nvidia&quot;,
+    &quot;runtimes&quot;: &#123;
+        &quot;nvidia&quot;:&#123;
+            &quot;path&quot;: &quot;/usr/bin/nvidia-container-runtime&quot;,
+            &quot;runtimeArgs&quot;: []
+        &#125;
+    &#125;
+&#125;
+</code></pre>
+<p>修改后需要使用命令加载并重启docker</p>
+<pre><code class="bash">systemctl daemon-reload
+systemctl restart docker
+</code></pre>
+<h2 id="docker语法"><a href="#docker语法" class="headerlink" title="docker语法"></a>docker语法</h2><pre><code class="bash">docker [command] [image_name:tag] [flags]
+</code></pre>
+<h3 id="command子命令包括以下："><a href="#command子命令包括以下：" class="headerlink" title="command子命令包括以下："></a>command子命令包括以下：</h3><h5 id="容器生命周期管理"><a href="#容器生命周期管理" class="headerlink" title="容器生命周期管理"></a>容器生命周期管理</h5><ul>
+<li>run</li>
+<li>start&#x2F;stop&#x2F;restart</li>
+<li>kill</li>
+<li>rm</li>
+<li>pause&#x2F;unpause</li>
+<li>create</li>
+<li>exec</li>
+</ul>
+<h5 id="容器操作"><a href="#容器操作" class="headerlink" title="容器操作"></a>容器操作</h5><ul>
+<li>ps</li>
+<li>inspect</li>
+<li>top</li>
+<li>attach</li>
+<li>events</li>
+<li>logs</li>
+<li>wait</li>
+<li>export</li>
+<li>port</li>
+<li>stats</li>
+</ul>
+<h5 id="容器rootfs命令"><a href="#容器rootfs命令" class="headerlink" title="容器rootfs命令"></a>容器rootfs命令</h5><ul>
+<li>commit</li>
+<li>cp</li>
+<li>diff</li>
+</ul>
+<h5 id="镜像仓库"><a href="#镜像仓库" class="headerlink" title="镜像仓库"></a>镜像仓库</h5><ul>
+<li>login</li>
+<li>pull</li>
+<li>push</li>
+<li>search</li>
+</ul>
+<h5 id="本地镜像管理"><a href="#本地镜像管理" class="headerlink" title="本地镜像管理"></a>本地镜像管理</h5><ul>
+<li>images</li>
+<li>rmi</li>
+<li>tag</li>
+<li>build</li>
+<li>history</li>
+<li>save</li>
+<li>load</li>
+<li>import</li>
+</ul>
+<h5 id="info-version"><a href="#info-version" class="headerlink" title="info|version"></a>info|version</h5><ul>
+<li>info</li>
+<li>version</li>
+</ul>
+<h2 id="docker-镜像命令"><a href="#docker-镜像命令" class="headerlink" title="docker 镜像命令"></a>docker 镜像命令</h2><p>登陆仓库</p>
+<pre><code class="bash">docker login 仓库地址
+</code></pre>
+<p>创建镜像</p>
+<pre><code class="bash">docker build -f ./Dockerfile -t 镜像名:版本 .
+</code></pre>
+<p>查看自己服务器中docker 镜像列表</p>
+<pre><code class="bash">docker images
+</code></pre>
+<p>搜索镜像</p>
+<pre><code class="bash">docker search 镜像名
+docker search --filter=STARS=9000 mysql     # 搜索 STARS &gt;9000的 mysql 镜像
+</code></pre>
+<p>拉取镜像 </p>
+<pre><code class="bash">不加tag(版本号) 即拉取docker仓库中 该镜像的最新版本latest 加:tag 则是拉取指定版本
+docker pull 镜像名 
+docker pull 镜像名:tag
+</code></pre>
+<p>咱再来拉取一个指定版本号 镜像 至于版本号呢 ，可以在docker hub中查看docker官方镜像</p>
+<p>运行镜像 </p>
+<pre><code class="bash">docker run 镜像名
+docker run 镜像名:Tag
+</code></pre>
+<p>docker中 run 命令是十分复杂的 有什么持久运行 映射端口 设置容器别名 数据卷挂载等，后面会详细介绍</p>
+<p>删除镜像<br>当前镜像没有被任何容器使用才可以删除</p>
+<pre><code class="bash">#删除一个
+docker rmi 镜像名/镜像ID
+#删除多个 其镜像ID或镜像用用空格隔开即可
+docker rmi 镜像名/镜像ID 镜像名/镜像ID 镜像名/镜像ID
+#删除全部镜像  -a 意思为显示全部, -q 意思为只显示ID
+docker rmi $(docker images -aq)
+强制删除镜像
+docker image rm -f 镜像名称/镜像ID
+</code></pre>
+<p>保存镜像<br>将我们的镜像 保存为tar 压缩文件 这样方便镜像转移和保存 ,然后 可以在任何一台安装了docker的服务器上 加载这个镜像</p>
+<pre><code class="bash"># 保存镜像
+docker save $IMAGE_NAME:$VERSION | gzip &gt; $SAVE_DIR/$IMAGE_NAME.tar.gz
+# 加载镜像
+gunzip -c $SAVE_DIR/$IMAGE_NAME.tar.gz | docker load
+# 给镜像打标签
+docker tag 源镜像名:TAG 新镜像名:新TAG
+</code></pre>
+<h2 id="docker-容器命令"><a href="#docker-容器命令" class="headerlink" title="docker 容器命令"></a>docker 容器命令</h2><p>查看正在运行容器列表</p>
+<pre><code class="bash">docker ps
+</code></pre>
+<p>查看所有容器 —–包含正在运行 和已停止的</p>
+<pre><code class="bash">docker ps -a
+</code></pre>
+<p>容器怎么来呢 可以通过run 镜像 来构建 自己的容器实例</p>
+<pre><code class="bash">运行一个容器
+# docker run -it -d --name 要取的别名 镜像名:Tag /bin/bash 
+-d, --detach=false，      指定容器运行于前台还是后台，默认为false
+-i, --interactive=false， 打开STDIN，用于控制台交互
+-t, --tty=false，         分配tty设备，该可以支持终端登录，默认为false
+-it,                      以交互模式进入容器，通常在最后通过/bin/bash或bash进入
+-u, --user=&quot;&quot;，           指定容器的用户
+-w, --workdir=&quot;&quot;，        指定容器的工作目录
+-c, --cpu-shares=0，      设置容器CPU权重，在CPU共享场景使用
+-e, --env=[]，            指定环境变量，容器中可以使用该环境变量
+-m, --memory=&quot;&quot;，         指定容器的内存上限
+-P, --publish-all=false， 指定容器暴露的端口
+-p, --publish=[]，        指定容器暴露的端口
+-h, --hostname=&quot;&quot;，       指定容器的主机名
+-v, --volume=[]，         给容器挂载存储卷，挂载到容器的某个目录
+--volumes-from=[]，       给容器挂载其他容器上的卷，挂载到容器的某个目录
+--cidfile=&quot;&quot;，            运行容器后，在指定文件中写入容器PID值，一种典型的监控系统用法
+--cpuset=&quot;&quot;，             设置容器可以使用哪些CPU，此参数可以用来容器独占CPU
+--cpu=&quot;&quot;,                 用来设置工作线程的数量。有多颗 CPU，则需要相应增加 --cpu 的数量。
+--device=[]，             添加主机设备给容器，相当于设备直通
+--dns=[]，                指定容器的dns服务器
+--dns-search=[]，         指定容器的dns搜索域名，写入到容器的/etc/resolv.conf文件
+--entrypoint=&quot;&quot;，         覆盖image的入口点
+--env-file=[]，           指定环境变量文件，文件格式为每行一个环境变量
+--expose=[]，             指定容器暴露的端口，即修改镜像的暴露端口
+--ip=&quot;&quot;,                  指定容器的静态ip
+--link=[]，               指定容器间的关联，使用其他容器的IP、env等信息
+--name=&quot;&quot;，               指定容器名字，后续可以通过名字进行容器管理，links特性需要使用名字
+--net=&quot;bridge&quot;，          容器网络设置:
+        bridge            		使用docker daemon指定的网桥
+        host              		容器使用主机的网络
+        container:NAME_or_ID 	使用其他容器的网路，共享IP和PORT等网络资源
+        none              		容器使用自己的网络（类似--net=bridge），但是不进行配置
+--privileged=false，      指定容器是否为特权容器，特权容器拥有所有的capabilities
+--restart=&quot;no&quot;，          指定容器停止后的重启策略:
+        no                		容器退出时不重启
+        on-failure        		容器故障退出（返回值非零）时重启
+        always            		容器退出时总是重启
+--rm=false，              指定容器停止后自动删除容器(不支持以docker run -d启动的容器)
+--sig-proxy=true，        设置由代理接受并处理信号，但是SIGCHLD、SIGSTOP和SIGKILL不能被代理
+--runtime=nvidia          设置runtime
+--gpus all                设置显卡
+</code></pre>
+<p>停止容器</p>
+<pre><code class="bash">docker stop 容器名/容器ID
+</code></pre>
+<p>删除容器 </p>
+<pre><code class="bash">#删除一个容器
+docker rm -f 容器名/容器ID
+#删除多个容器 空格隔开要删除的容器名或容器ID
+docker rm -f 容器名/容器ID 容器名/容器ID 容器名/容器ID
+#删除全部容器
+docker rm -f $(docker ps -aq)
+</code></pre>
+<p>重启容器</p>
+<pre><code class="bash">docker restart 容器ID/容器名
+</code></pre>
+<p>启动容器</p>
+<pre><code class="bash">docker start 容器ID/容器名
+</code></pre>
+<p>kill 容器</p>
+<pre><code class="bash">docker kill 容器ID/容器名
+</code></pre>
+<p>进入容器</p>
+<pre><code class="bash">#  方式一
+docker exec -it 容器名/容器ID /bin/bash
+#  方式二 
+docker attach 容器名/容器ID
+</code></pre>
+<p>从容器内 退出到自己服务器中 需注意 两个退出命令的区别</p>
+<pre><code class="bash">#=直接退出  未添加 -d(持久化运行容器) 时 执行此参数 容器会被关闭  
+exit
+
+# 优雅退出 无论是否添加-d 参数 执行此命令容器都不会被关闭
+Ctrl + p + q
+</code></pre>
+<p>容器文件拷贝 —无论容器是否开启 都可以进行拷贝</p>
+<pre><code class="bash">#从容器内 拷出
+docker cp 容器ID/名称: 容器内路径  容器外路径
+#从外部 拷贝文件到容器内
+docker  cp 容器外路径 容器ID/名称: 容器内路径
+</code></pre>
+<p>查看容器日志</p>
+<pre><code class="bash">docker logs -f --tail=要查看末尾多少行(默认all) 容器ID
+# 当容器启动失败时，通过下面方法
+docker inspect --format &#39;&#123;&#123;.LogPath&#125;&#125;&#39; 容器ID
+</code></pre>
+<p>容器配置更新</p>
+<pre><code class="bash">docker update --restart=always 容器Id 或者 容器名
+</code></pre>
+<p>更换容器名</p>
+<pre><code class="bash">docker rename 容器ID/容器名 新容器名
+</code></pre>
+<p>自己提交一个镜像<br>我们运行的容器可能在镜像的基础上做了一些修改，有时候我们希望保存起来，封装成一个更新的镜像，这时候我们就需要使用 commit 命令来构建一个新的镜像</p>
+<pre><code class="bash">docker commit -m=&quot;提交信息&quot; -a=&quot;作者信息&quot; 容器名/容器ID 提交后的镜像名:Tag
+</code></pre>
+<p>获取元数据</p>
+<pre><code class="bash">docker inspect 容器名/容器ID  
+# 获取正在运行的容器mymysql的 IP。  
+docker inspect --format=&#39;&#123;&#123;range .NetworkSettings.Networks&#125;&#125;&#123;&#123;.IPAddress&#125;&#125;&#123;&#123;end&#125;&#125;&#39; mysql
+</code></pre>
+<p>查看容器中运行的进程信息</p>
+<pre><code class="bash">docker top 容器名/容器ID
+</code></pre>
+<p>查看指定镜像的创建历史</p>
+<pre><code class="bash">docker history 镜像:版本
+</code></pre>
+<h2 id="docker-网络"><a href="#docker-网络" class="headerlink" title="docker 网络"></a>docker 网络</h2><p>新建网络</p>
+<pre><code class="bash">docker network create --driver bridge --subnet 172.18.0.0/24  --gateway 172.18.0.1 $net_name
+</code></pre>
+<p>使用网络固定IP</p>
+<pre><code class="bash">docker run --name mongo5 --network $net_name --ip 172.18.0.5 -p 27005:27017 -d mongo:4
+</code></pre>
+<h2 id="docker-运维命令"><a href="#docker-运维命令" class="headerlink" title="docker 运维命令"></a>docker 运维命令</h2><p>可能有时候发布会遇到如下错误:</p>
+<pre><code class="bash">docker: write /var/lib/docker/tmp/GetImageBlob325372670: no space left on device
+</code></pre>
+<p>这个错误是docker在写入的时候报错无机器无空间</p>
+<pre><code class="bash"># 查看docker工作目录
+sudo docker info | grep &quot;Docker Root Dir&quot;
+</code></pre>
+<p>更改docker工作目录</p>
+<pre><code class="bash">systemctl stop docker
+sudo cp -r /var/lib/docker/* /data/docker
+vim /etc/docker/daemon.json
+# 添加这句话    &quot;data-root&quot;: &quot;/data/docker&quot;,
+systemctl daemon-reload
+systemctl start docker
+</code></pre>
+<p>查看docker磁盘占用总体情况</p>
+<pre><code class="bash">du -hs /var/lib/docker/ 
+</code></pre>
+<p>查看Docker的磁盘使用具体情况</p>
+<pre><code class="bash">docker system df
+</code></pre>
+<pre><code>    TYPE 列出了 Docker 使用磁盘的 4 种类型：
+    Images            所有镜像占用的空间，包括拉取下来的镜像，和本地构建的。
+    Containers        运行的容器占用的空间，表示每个容器的读写层的空间。
+    Local Volumes     容器挂载本地数据卷的空间。
+    Build Cache       镜像构建过程中产生的缓存空间（只有在使用 BuildKit 时才有，Docker 18.09 以后可用）。
+</code></pre>
+<p>删除无用的镜像</p>
+<pre><code class="bash"># 清除所有无容器使用的镜像
+docker system prune
+#  删除名称或标签为none的镜像
+docker rmi -f `docker images | grep &#39;&lt;none&gt;&#39; | awk &#39;&#123;print $3&#125;&#39;`
+</code></pre>
+<p>删除无用的容器</p>
+<pre><code class="bash"># 清理停止的容器
+docker container prune 
+#  删除异常停止的容器
+docker rm `docker ps -a | grep Exited | awk &#39;&#123;print $1&#125;&#39;` 
+# 删除状态为exited的容器
+sudo docker rm $(sudo docker ps -qf status=exited)
+</code></pre>
+<p>删除无用的数据卷</p>
+<pre><code class="bash">docker volume prune
+</code></pre>
+<p>删除无用的构建缓存</p>
+<pre><code class="bash">docker builder prune
+</code></pre>
+<p>一键清理所有无用的空间</p>
+<pre><code class="bash">docker system prune
+</code></pre>
+<h2 id="命令卡"><a href="#命令卡" class="headerlink" title="命令卡"></a>命令卡</h2><p><img src="/images/docker/docker_ka.png" alt="在这里插入图片描述"></p>
+
+    </div>
+    
+</div>
+                         
+<footer id="footer">
+    <div class="footer-wrap">
+        <div>
+            © 2022 - 2024 Lining&#39;s Blog
+            <span class="footer-icon">
+                <i class="fa-solid fa-font-awesome fa-fw"></i>
+            </span>
+            @Lining
+        </div>
+        <div></div>
+
+        
+        <div>
+            备案号：<a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">
+                陕ICP备2023009770号
+            </a>
+        </div>
+        
+    </div>
+</footer>
+                    </div>
+                </div>
+            </transition>
+            <div id="img_show">
+                <img id="img_content" alt="img_show">
+            </div>
+        </div>
+        <script src="https://cdn.staticfile.org/highlight.js/11.5.1/highlight.min.js"></script>
+        <script src="/js/particlex.js"></script>
+        <script src="/js/showimg.js"></script>
+        
+
+		<canvas
+			id="fireworks"
+			style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 32767"
+		></canvas>
+		<script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
+		<script src="/js/fireworks.min.js"></script>
+		<canvas
+			id="background"
+			style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: -1"
+		></canvas>
+		<script src="/js/background.min.js"></script>
+		<canvas id="digitalrain"
+		style="position: fixed; right: 0px; bottom: 0px; min-width: 100%; min-height: 100%; height: auto; width: auto; z-index: -1"
+		></canvas>
+		<script src="/js/digitalrain.js"></script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":null,"use":"live2d-widget-model-hijiki","display":null,"position":"right","width":150,"height":300,"mobile":null,"show":false,"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>

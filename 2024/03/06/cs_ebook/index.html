@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <title>计算机经典书籍推荐清单 | Lining&#39;s Blog</title>
+        <meta name="author" content="Lining">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="icon" href="tou.png">
+        <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
+        <script src="https://cdn.staticfile.org/font-awesome/6.1.1/js/all.min.js"></script>
+        
+        <link rel="stylesheet" href="/css/fonts.min.css">
+        <link rel="stylesheet" href="/css/particlex.css">
+        
+        <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
+    <meta name="generator" content="Hexo 6.3.0"></head>
+    <body>
+        <div id="loading" style="height:100vh;width:100vw;position:fixed;display:flex;z-index:200;justify-content:space-between;background:#fff;transition:opacity 0.3s ease-out"><div style="position:fixed;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center"><div id="loadcontent" style="width:50vmin;height:50vmin;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px #a3ddfb;text-align:center"><div><h2>LOADING...</h2><p style="word-break:keep-all">加载过慢请开启缓存(浏览器默认开启)</p><div><img alt="loading" src="/loading.gif"></div></div></div></div></div>
+        <div id="layout">
+            <i data-fa-symbol="calendar-solid" class="fa-solid fa-calendar fa-fw"></i>
+            <i data-fa-symbol="bookmark-solid" class="fa-solid fa-bookmark fa-fw"></i>
+            <i data-fa-symbol="tags-solid" class="fa-solid fa-tags fa-fw"></i>
+            <transition name="into">
+                <div v-show="show_page" style="display: -not-none">
+                    <div id="menu_show">
+                         
+<nav id="menu">
+    <div class="desktop-menu">
+        <a href="/">
+            <span class="title">Lining's Blog</span>
+        </a>
+        
+        <a href="/">
+            <i class="fa-solid fa-house fa-fw"></i>
+            <span>&ensp;主页</span>
+        </a>
+        
+        <a href="/archives">
+            <i class="fa-solid fa-box-archive fa-fw"></i>
+            <span>&ensp;归档</span>
+        </a>
+        
+        <a href="/categories">
+            <i class="fa-solid fa-bookmark fa-fw"></i>
+            <span>&ensp;分类</span>
+        </a>
+        
+        <a href="/tags">
+            <i class="fa-solid fa-tags fa-fw"></i>
+            <span>&ensp;标签</span>
+        </a>
+        
+        <a href="/about">
+            <i class="fa-solid fa-id-card fa-fw"></i>
+            <span>&ensp;关于</span>
+        </a>
+        
+    </div>
+    <div :class="'phone-menu ' + menu_show" id="phone-menu">
+        <div class="curtain" @click="menu_show = !menu_show" v-show="menu_show"></div>
+        <div :class="'title'" @click="menu_show = !menu_show">
+            <i class="fa-solid fa-bars fa-fw"></i>
+            <span>&emsp;Lining's Blog</span>
+        </div>
+        <transition name="slide">
+        <div class="items" v-show="menu_show">
+            
+            <a href="/">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-house fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">主页</div>
+                </div>
+            </a>
+            
+            <a href="/archives">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-box-archive fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">归档</div>
+                </div>
+            </a>
+            
+            <a href="/categories">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-bookmark fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">分类</div>
+                </div>
+            </a>
+            
+            <a href="/tags">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-tags fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">标签</div>
+                </div>
+            </a>
+            
+            <a href="/about">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-id-card fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">关于</div>
+                </div>
+            </a>
+            
+        </div>
+        </transition>
+    </div>
+</nav>
+                    </div>
+                    <div id="main">
+                        
+<div class="article">
+    <div>
+        <h1>计算机经典书籍推荐清单 </h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
+            </span>
+            2024/3/6
+        </span>
+        
+        <span class="category">
+            <a href="/categories/推荐/">
+                <span class="icon">
+                    <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
+                </span>
+                推荐
+            </a>
+        </span>
+        
+        
+        <span class="tags">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/CS/" style="color: #00bcd4">
+                    CS
+                </a>
+            </span>
+            
+        </span>
+        
+	<!-- 开始添加字数统计-->
+	
+	    	<div style="margin-top:10px;">
+	    <span class="post-time">
+	      <span class="post-meta-item-icon">
+	        <i class="fa-solid fa-keyboard"></i>
+	        <span class="post-meta-item-text">  &nbsp;字数统计:&nbsp;</span>
+	        <!-- 安装插件npm install hexo-wordcount --save -->
+	        <span class="post-count">394字</span>
+	      </span>
+	    </span>
+	
+	    <span class="post-time">
+	      &nbsp;&nbsp;
+	      <span class="post-meta-item-icon">
+	        <i class="fa-solid fa-clock"></i>
+	        <span class="post-meta-item-text">  &nbsp;阅读时长:&nbsp;</span>
+	        <span class="post-count">1分钟</span>
+	      </span>
+	    </span>
+
+	    <span class="post-time">
+		&nbsp;&nbsp;
+		
+    		    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+		    <i class="fa-solid fa-eye"></i>
+    		    <span id="busuanzi_container_site_pv">&nbsp;&nbsp;浏览量:&nbsp;<span id="busuanzi_value_page_pv"></span>次</span>
+	        
+	    </span>
+	</div>
+
+	
+	<!-- 添加完成 -->
+    </div>
+    <div class="content" v-pre>
+        <p>本储存库是一些高质量的计算机科学与技术书籍推荐书单，需要学习的可以按照此书单进行学习进阶，包含了计算机大多数软件相关方向。而且敢承诺一直更新。项目地址：<a target="_blank" rel="noopener" href="https://github.com/lining808/CS-Ebook">https://github.com/lining808/CS-Ebook</a></p>
+<p><img src="/images/images/bg.jpg" alt="在这里插入图片描述"></p>
+<span id="more"></span>
+
+<h2 id="📘-具体内容"><a href="#📘-具体内容" class="headerlink" title="📘 具体内容"></a>📘 具体内容</h2><p>🌟 <strong>计算机基础</strong>（计算机概论、组成原理、操作系统、计算机网络、数据结构、算法等）；</p>
+<p>🌟 <strong>编程语言</strong>（C、CPP、C#、Rust、Java、Go、Python、SQL、JavaScript、PHP、Ruby、Matlab、Latex等）；</p>
+<p>🌟 <strong>软件工程</strong>（产品经理、软件架构、调试测试等）；</p>
+<p>🌟 <strong>数学工具</strong>（基础数学、应用数学等）；</p>
+<p>🌟 <strong>大数据</strong>（数据分析、数据挖掘等）；</p>
+<p>🌟 <strong>人工智能</strong>（机器学习、深度学习、强化学习等）；</p>
+<p>🌟 <strong>生存指南</strong>（生存指南、考证、面试等）。</p>
+<p>分类根据个人理解和爱好分类，找不到的可以搜索试试。</p>
+<p><img src="/images/images/class.jpg" alt="在这里插入图片描述"></p>
+<h2 id="🏆-特点"><a href="#🏆-特点" class="headerlink" title="🏆 特点"></a>🏆 特点</h2><p>🌟 <strong>精</strong></p>
+<ul>
+<li><p>书在于精而不在于多;</p>
+</li>
+<li><p>本书库推荐的都是个方向经典书籍。</p>
+</li>
+</ul>
+<p>🌟 <strong>新</strong></p>
+<ul>
+<li>本书库推荐保持最新版本。</li>
+</ul>
+<h2 id="🚀-食用指南"><a href="#🚀-食用指南" class="headerlink" title="🚀 食用指南"></a>🚀 食用指南</h2><ul>
+<li>推荐的书籍，不提供下载地址，需要的可以通过 <a target="_blank" rel="noopener" href="https://zh.zlibrary-east.se/">Z-Library</a>(全球最大的开源图书馆) 检索下载，上面书籍较多。</li>
+</ul>
+<h1 id="计算机基础"><a href="#计算机基础" class="headerlink" title="计算机基础"></a>计算机基础</h1><details>
+<summary>计算机概论</summary>
+
+<p><img src="/images/images/11.png" alt="在这里插入图片描述"></p>
+</details>
+
+
+<details>
+<summary>组成原理</summary>
+
+<p><img src="/images/images/12.png" alt="在这里插入图片描述"></p>
+</details>
+
+<details>
+<summary>计算机网络</summary>
+
+<p><img src="/images/images/13.png" alt="在这里插入图片描述"></p>
+</details>
+
+<details>
+<summary>操作系统</summary>
+
+<p><img src="/images/images/14.png" alt="在这里插入图片描述"></p>
+</details>
+
+<details>
+<summary>算法与数据结构</summary>
+
+<p><img src="/images/images/151.png" alt="在这里插入图片描述"><br><img src="/images/images/152.png" alt="在这里插入图片描述"></p>
+</details>
+其他推荐清单详见
+
+<p>项目地址：<a target="_blank" rel="noopener" href="https://github.com/lining808/CS-Ebook">https://github.com/lining808/CS-Ebook</a></p>
+<p>如果大家觉得有其他经典的书籍本库没有收录的，欢迎PR。</p>
+<p>欢迎star⭐ ，您的关注是我更新的动力。</p>
+<hr>
+<div style="text-align:center">
+  <a target="_blank" rel="noopener" href="https://star-history.com/#lining808/CS-Ebook&Date">
+    <img src="https://api.star-history.com/svg?repos=lining808/CS-Ebook&type=Date" alt="Star History Chart">
+  </a>
+</div>
+
+    </div>
+    
+</div>
+                         
+<footer id="footer">
+    <div class="footer-wrap">
+        <div>
+            © 2022 - 2024 Lining&#39;s Blog
+            <span class="footer-icon">
+                <i class="fa-solid fa-font-awesome fa-fw"></i>
+            </span>
+            @Lining
+        </div>
+        <div></div>
+
+        
+        <div>
+            备案号：<a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">
+                陕ICP备2023009770号
+            </a>
+        </div>
+        
+    </div>
+</footer>
+                    </div>
+                </div>
+            </transition>
+            <div id="img_show">
+                <img id="img_content" alt="img_show">
+            </div>
+        </div>
+        <script src="https://cdn.staticfile.org/highlight.js/11.5.1/highlight.min.js"></script>
+        <script src="/js/particlex.js"></script>
+        <script src="/js/showimg.js"></script>
+        
+
+		<canvas
+			id="fireworks"
+			style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 32767"
+		></canvas>
+		<script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
+		<script src="/js/fireworks.min.js"></script>
+		<canvas
+			id="background"
+			style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: -1"
+		></canvas>
+		<script src="/js/background.min.js"></script>
+		<canvas id="digitalrain"
+		style="position: fixed; right: 0px; bottom: 0px; min-width: 100%; min-height: 100%; height: auto; width: auto; z-index: -1"
+		></canvas>
+		<script src="/js/digitalrain.js"></script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":null,"use":"live2d-widget-model-hijiki","display":null,"position":"right","width":150,"height":300,"mobile":null,"show":false,"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>

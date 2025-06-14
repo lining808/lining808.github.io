@@ -1,0 +1,506 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <title>Python基础环境配置 | Lining&#39;s Blog</title>
+        <meta name="author" content="Lining">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="icon" href="tou.png">
+        <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
+        <script src="https://cdn.staticfile.org/font-awesome/6.1.1/js/all.min.js"></script>
+        
+        <link rel="stylesheet" href="/css/fonts.min.css">
+        <link rel="stylesheet" href="/css/particlex.css">
+        
+        <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
+    <meta name="generator" content="Hexo 6.3.0"></head>
+    <body>
+        <div id="loading" style="height:100vh;width:100vw;position:fixed;display:flex;z-index:200;justify-content:space-between;background:#fff;transition:opacity 0.3s ease-out"><div style="position:fixed;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center"><div id="loadcontent" style="width:50vmin;height:50vmin;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px #a3ddfb;text-align:center"><div><h2>LOADING...</h2><p style="word-break:keep-all">加载过慢请开启缓存(浏览器默认开启)</p><div><img alt="loading" src="/loading.gif"></div></div></div></div></div>
+        <div id="layout">
+            <i data-fa-symbol="calendar-solid" class="fa-solid fa-calendar fa-fw"></i>
+            <i data-fa-symbol="bookmark-solid" class="fa-solid fa-bookmark fa-fw"></i>
+            <i data-fa-symbol="tags-solid" class="fa-solid fa-tags fa-fw"></i>
+            <transition name="into">
+                <div v-show="show_page" style="display: -not-none">
+                    <div id="menu_show">
+                         
+<nav id="menu">
+    <div class="desktop-menu">
+        <a href="/">
+            <span class="title">Lining's Blog</span>
+        </a>
+        
+        <a href="/">
+            <i class="fa-solid fa-house fa-fw"></i>
+            <span>&ensp;主页</span>
+        </a>
+        
+        <a href="/archives">
+            <i class="fa-solid fa-box-archive fa-fw"></i>
+            <span>&ensp;归档</span>
+        </a>
+        
+        <a href="/categories">
+            <i class="fa-solid fa-bookmark fa-fw"></i>
+            <span>&ensp;分类</span>
+        </a>
+        
+        <a href="/tags">
+            <i class="fa-solid fa-tags fa-fw"></i>
+            <span>&ensp;标签</span>
+        </a>
+        
+        <a href="/about">
+            <i class="fa-solid fa-id-card fa-fw"></i>
+            <span>&ensp;关于</span>
+        </a>
+        
+    </div>
+    <div :class="'phone-menu ' + menu_show" id="phone-menu">
+        <div class="curtain" @click="menu_show = !menu_show" v-show="menu_show"></div>
+        <div :class="'title'" @click="menu_show = !menu_show">
+            <i class="fa-solid fa-bars fa-fw"></i>
+            <span>&emsp;Lining's Blog</span>
+        </div>
+        <transition name="slide">
+        <div class="items" v-show="menu_show">
+            
+            <a href="/">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-house fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">主页</div>
+                </div>
+            </a>
+            
+            <a href="/archives">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-box-archive fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">归档</div>
+                </div>
+            </a>
+            
+            <a href="/categories">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-bookmark fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">分类</div>
+                </div>
+            </a>
+            
+            <a href="/tags">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-tags fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">标签</div>
+                </div>
+            </a>
+            
+            <a href="/about">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-id-card fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">关于</div>
+                </div>
+            </a>
+            
+        </div>
+        </transition>
+    </div>
+</nav>
+                    </div>
+                    <div id="main">
+                        
+<div class="article">
+    <div>
+        <h1>Python基础环境配置 </h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
+            </span>
+            2023/8/3
+        </span>
+        
+        <span class="category">
+            <a href="/categories/教程/">
+                <span class="icon">
+                    <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
+                </span>
+                教程
+            </a>
+        </span>
+        
+        
+        <span class="tags">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/Python/" style="color: #03a9f4">
+                    Python
+                </a>
+            </span>
+            
+        </span>
+        
+	<!-- 开始添加字数统计-->
+	
+	    	<div style="margin-top:10px;">
+	    <span class="post-time">
+	      <span class="post-meta-item-icon">
+	        <i class="fa-solid fa-keyboard"></i>
+	        <span class="post-meta-item-text">  &nbsp;字数统计:&nbsp;</span>
+	        <!-- 安装插件npm install hexo-wordcount --save -->
+	        <span class="post-count">1.8k字</span>
+	      </span>
+	    </span>
+	
+	    <span class="post-time">
+	      &nbsp;&nbsp;
+	      <span class="post-meta-item-icon">
+	        <i class="fa-solid fa-clock"></i>
+	        <span class="post-meta-item-text">  &nbsp;阅读时长:&nbsp;</span>
+	        <span class="post-count">7分钟</span>
+	      </span>
+	    </span>
+
+	    <span class="post-time">
+		&nbsp;&nbsp;
+		
+    		    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+		    <i class="fa-solid fa-eye"></i>
+    		    <span id="busuanzi_container_site_pv">&nbsp;&nbsp;浏览量:&nbsp;<span id="busuanzi_value_page_pv"></span>次</span>
+	        
+	    </span>
+	</div>
+
+	
+	<!-- 添加完成 -->
+    </div>
+    <div class="content" v-pre>
+        <h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>本教程为一个python入门教程，面向初学者，因此内容较为详细。主要内容为python环境配置教程，包括Anaconda，PyCharm，Jupyter notebook的安装与配置，及其常用技巧。教程以Windows系统为平台作演示，其他系统可能存在少许差异。</p>
+<span id="more"></span>
+<h1 id="一、准备相应的材料"><a href="#一、准备相应的材料" class="headerlink" title="一、准备相应的材料"></a>一、准备相应的材料</h1><p>本教程需要的文件如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th>文件名</th>
+<th>简介</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Anaconda3-2021.05-Windows-x86_64.exe</td>
+<td>Anaconda的安装包</td>
+<td>python包管理工具</td>
+</tr>
+<tr>
+<td>Miniconda3-py39_4.9.2-Windows-x86_64.exe</td>
+<td>精简版的Anaconda的安装包（电脑配置较低时推荐使用）</td>
+<td>python包管理工具</td>
+</tr>
+<tr>
+<td>pycharm-community-2021.1.3.exe</td>
+<td>PyCharm安装包</td>
+<td>Python代码编辑器</td>
+</tr>
+</tbody></table>
+<p>以上文件可在以下链接获得。<br><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1nchSj5OznYprJgOF_KFoHQ?pwd=ne58">百度云盘</a>（懂得都懂）<br><a target="_blank" rel="noopener" href="https://www.alipan.com/s/LQP4zBJbKmd">阿里云盘</a>（蜗牛云盘客户端不限速下载）<br><a target="_blank" rel="noopener" href="https://www.123pan.com/s/bjbgjv-lkHhh.html">123pan</a>（<strong>推荐</strong>，不需要客户端，直链不限速下载）</p>
+<p>注：本教程以Windows系统为例，其他系统步骤可能存在少许差异，但大致步骤相同。</p>
+<p>如需要其他系统或其他版本，可以到以下网址进行下载。</p>
+<p>Anaconda:  <a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/">https://mirrors.tuna.tsinghua.edu.cn/anaconda/</a></p>
+<p><img src="/images/python/1.png" alt="在这里插入图片描述"></p>
+<p>PyCharm：<a target="_blank" rel="noopener" href="https://www.jetbrains.com/pycharm/download/">https://www.jetbrains.com/pycharm/download/</a></p>
+<p>PyCharm下载时选择Community 版本为免费版本</p>
+<p><img src="/images/python/2.png" alt="在这里插入图片描述"></p>
+<h1 id="二、安装Anaconda"><a href="#二、安装Anaconda" class="headerlink" title="二、安装Anaconda"></a>二、安装Anaconda</h1><ol>
+<li><p>双击打开Anaconda3-2021.05-Windows-x86_64.exe文件（电脑配置较差的可以换成Miniconda3-py39_4.9.2-Windows-x86_64.exe，两者在基本功能上没有太大区别，二者选其一即可）</p>
+</li>
+<li><p>出现安装界面，按照以下流程选择安装。</p>
+</li>
+</ol>
+<p><img src="/images/python/3.png" alt="在这里插入图片描述"></p>
+<p><img src="/images/python/4.png" alt="在这里插入图片描述"></p>
+<p><img src="/images/python/5.png" alt="在这里插入图片描述"></p>
+<p><img src="/images/python/6.png" alt="在这里插入图片描述"></p>
+<p><img src="/images/python/7.png" alt="在这里插入图片描述"></p>
+<p><img src="/images/python/8.png" alt="在这里插入图片描述"></p>
+<p>安装中……等待安装完成</p>
+<p><img src="/images/python/9.png" alt="在这里插入图片描述"></p>
+<p><img src="/images/python/10.png" alt="在这里插入图片描述"></p>
+<p><img src="/images/python/11.png" alt="在这里插入图片描述"></p>
+<p>Anaconda安装完成</p>
+<h1 id="三、安装PyCharm"><a href="#三、安装PyCharm" class="headerlink" title="三、安装PyCharm"></a>三、安装PyCharm</h1><ol>
+<li><p>双击打开Anaconda3-2021.05-Windows-x86_64.exe文件。</p>
+</li>
+<li><p>出现安装界面，按照以下流程选择安装。</p>
+</li>
+</ol>
+<p><img src="/images/python/12.png" alt="在这里插入图片描述"><br><img src="/images/python/13.png" alt="在这里插入图片描述"><br><img src="/images/python/14.png" alt="在这里插入图片描述"><br><img src="/images/python/15.png" alt="在这里插入图片描述"><br><img src="/images/python/16.png" alt="在这里插入图片描述"><br><img src="/images/python/17.png" alt="在这里插入图片描述"></p>
+<h1 id="四、配置环境"><a href="#四、配置环境" class="headerlink" title="四、配置环境"></a>四、配置环境</h1><ol>
+<li>在开始任务栏打开刚才安装的Anaconda</li>
+</ol>
+<p><img src="/images/python/18.png" alt="在这里插入图片描述"></p>
+<p>   出现如下界面</p>
+<p><img src="/images/python/19.png" alt="在这里插入图片描述"></p>
+<ol start="2">
+<li><p>创建一个新的环境，名为demo（名字可以任意起，给环境起标记作用）。</p>
+<p>操作如下：</p>
+</li>
+</ol>
+<p>   （1）输入:</p>
+<pre><code class="bash">conda create -n demo python=3.8
+</code></pre>
+<p>其中，conda create 为创建新环境命令，demo为新环境名，python&#x3D;3.8为制定python版本为python3.8.</p>
+<p>   （2） 按Enter键</p>
+<p><img src="/images/python/20.png" alt="在这里插入图片描述"></p>
+<p>出现如上界面，</p>
+<p>（1）输入：</p>
+<pre><code class="bash">y
+</code></pre>
+<p>（2） 按Enter键</p>
+<p><img src="/images/python/21.png" alt="在这里插入图片描述"></p>
+<p>出现如上界面，新建环境完成</p>
+<ol start="3">
+<li>打开PyCharm，创建新项目，配置新建环境。</li>
+</ol>
+<p>双击桌面图标!<img src="/images/python/22.png" alt="在这里插入图片描述"></p>
+<p><img src="/images/python/23.png" alt="在这里插入图片描述"></p>
+<p>新建一个项目，名为demo（名字符合变量名即可）</p>
+<p><img src="/images/python/24.png" alt="在这里插入图片描述"><br><img src="/images/python/25.png" alt="在这里插入图片描述"><br><img src="/images/python/26.png" alt="在这里插入图片描述"><br><img src="/images/python/27.png" alt="在这里插入图片描述"><br><img src="/images/python/28.png" alt="在这里插入图片描述"></p>
+<p>如上图，新项目创建完成</p>
+<ol start="4">
+<li>运行Python文件。PyCharm功能区分布大致如下。</li>
+</ol>
+<p><img src="/images/python/29.png" alt="在这里插入图片描述"></p>
+<p>运行代码的三种方法：</p>
+<p>（1）直接点击PyCharm操作区 ▶ 按钮</p>
+<p>（2）在文件编辑区单击鼠标右键，选择Run…选项</p>
+<p><img src="/images/python/30.png" alt="在这里插入图片描述"></p>
+<p>（3）在Terminal运行文件夹下输入：</p>
+<pre><code class="bash">python demo1.py
+</code></pre>
+<p>其中，demo1.py为待执行文件的全名。<br><img src="/images/python/31.png" alt="在这里插入图片描述"></p>
+<p>运行结果如下:</p>
+<p><img src="/images/python/32.png" alt="在这里插入图片描述"></p>
+<ol start="5">
+<li>新建文件，在项目文件区demo文件夹单击鼠标右键，按照下图所示选择</li>
+</ol>
+<p><img src="/images/python/33.png" alt="在这里插入图片描述"><br><img src="/images/python/34.png" alt="在这里插入图片描述"></p>
+<p>在新建的文件中输入以下代码：</p>
+<pre><code class="python"># 导入需要使用的包
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+e = math.e
+
+# 定义一个sigmoid函数
+def sigmoid(x):
+    return 1 / (1 + pow(e, -x))
+
+# 定义一个softplus函数
+def softplus(x):
+    return math.log(1 + pow(e, x))
+
+# 定义一个tanh函数
+def tanh(x):
+    return (e ** x - e ** (-x)) / (e ** x + e ** (-x))
+
+# 定义一个leakyrelu函数
+def leakyrelu(x):
+    return max(x, 0.1 * x)
+
+# 定义一个mish函数
+def mish(x):
+    return x * tanh(softplus(x))
+
+# 限定x,y坐标轴范围为(-5,5),并在其中产生1000个相应的点
+x = np.linspace(-5, 5, 1000)
+y0 = np.linspace(-5, 5, 1000)
+y1 = np.linspace(-5, 5, 1000)
+y2 = np.linspace(-5, 5, 1000)
+# 将函数值赋值给上述产生的点
+for i in range(1000):
+    y0[i] = sigmoid(x[i])
+    y1[i] = leakyrelu(x[i])
+    y2[i] = mish(x[i])
+# 绘制函数图像
+plt.plot(x, y0, color=&#39;blue&#39;, linewidth=1, label=&#39;sigmoid&#39;)
+plt.plot(x, y1, color=&#39;red&#39;, linewidth=1, label=&#39;leakyrelu&#39;)
+plt.plot(x, y2, color=&#39;orange&#39;, linewidth=1, label=&#39;mish&#39;)
+plt.title(&#39;sigmoid, leakyrelu and Mish functions&#39;, fontdict=&#123;&#39;family&#39;: &#39;Times New Roman&#39;, &#39;size&#39;: 14&#125;)
+plt.xticks(fontproperties = &#39;Times New Roman&#39;, size = 14)
+plt.legend(prop=&#123;&#39;family&#39; : &#39;SimSun&#39;, &#39;size&#39; : 14&#125;)
+plt.yticks(fontproperties = &#39;Times New Roman&#39;, size = 14)
+plt.grid()
+plt.savefig(&#39;mish.jpg&#39;, dpi=600, bbox_inches=&#39;tight&#39;)
+plt.show()
+</code></pre>
+<ol start="6">
+<li>安装Python包。在numpy和matplotlib下有红线，表示相应的包未安装。</li>
+</ol>
+<p><img src="/images/python/35.png" alt="在这里插入图片描述"></p>
+<p>安装包使用以下命令：</p>
+<pre><code class="bash">pip install numpy
+</code></pre>
+<p>其中，numpy为包名，安装其他包是替换名称即可。若下载速度较慢，使用：</p>
+<pre><code class="bash">pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
+</code></pre>
+<p><img src="/images/python/36.png" alt="在这里插入图片描述"><br><img src="/images/python/37.png" alt="在这里插入图片描述"></p>
+<p>运行demo1.py得到如下结果。</p>
+<p><img src="/images/python/38.png" alt="在这里插入图片描述"></p>
+<h1 id="五、-安装jupyter-notebook"><a href="#五、-安装jupyter-notebook" class="headerlink" title="五、 安装jupyter notebook"></a>五、 安装jupyter notebook</h1><ol>
+<li><p>打开anaconda</p>
+</li>
+<li><p>激活我们建的环境demo，输入：</p>
+</li>
+</ol>
+<pre><code class="bash">conda activate demo
+</code></pre>
+<p><img src="/images/python/39.png" alt="在这里插入图片描述"></p>
+<ol start="3">
+<li>安装jupyter notebook ，输入：</li>
+</ol>
+<pre><code class="bash">pip install jupyter notebook
+</code></pre>
+<p><img src="/images/python/40.png" alt="在这里插入图片描述"></p>
+<p>jupyter notebook安装完成</p>
+<ol start="4">
+<li>打开jupyter notebook，输入：</li>
+</ol>
+<pre><code class="bash">jupyter notebook
+</code></pre>
+<p><img src="/images/python/41.png" alt="在这里插入图片描述"></p>
+<p>浏览器自动跳转如下界面，打开完成。继续打开文件夹，创建python文件。<br><img src="/images/python/42.png" alt="在这里插入图片描述"><br><img src="/images/python/43.png" alt="在这里插入图片描述"><br>若出现如下情况</p>
+<p><img src="/images/python/44.png" alt="在这里插入图片描述"></p>
+<p>解决方法如下:</p>
+<p>（1） 在刚才打开的Anaconda页面按键盘 <kbd>Ctrl</kbd>+<kbd>C</kbd> 退出当前jupyter程序。</p>
+<p>（2） 卸载pywin32, 输入：</p>
+<pre><code class="bash">pip uninstall pywin32
+</code></pre>
+<p>（3） 安装225版本pywin32, 输入：</p>
+<pre><code class="bash">pip install pywin32==225
+</code></pre>
+<p>注：下一次启动jupyter notebook全过程：</p>
+<p>（1）  打开Anaconda</p>
+<p>（2）  输入：</p>
+<pre><code class="bash">conda create demo
+</code></pre>
+<p>（3）  输入：</p>
+<pre><code class="bash">jupyter notebook
+</code></pre>
+<ol start="5">
+<li>运行第一个jupyter程序</li>
+</ol>
+<p><img src="/images/python/45.png" alt="在这里插入图片描述"></p>
+<p><img src="/images/python/46.png" alt="在这里插入图片描述"><br><img src="/images/python/47.png" alt="在这里插入图片描述"></p>
+<p>依次输入前一节代码，得到运行结果如下图。由于我们选择了刚开始建的demo环境，因此numpy和matplotlib包已经安装完成，我们不需要在进行安装。</p>
+<p><img src="/images/python/48.png" alt="在这里插入图片描述"></p>
+<p>Jupyter notebook的强大之处在于，可以对代码段的结果进行输出。</p>
+<p><img src="/images/python/49.png" alt="在这里插入图片描述"></p>
+<ol start="6">
+<li>Jupyter安装python包。</li>
+</ol>
+<p>操作如下：</p>
+<p>（1）  打开Anaconda</p>
+<p>（2）  激活当前环境，输入：</p>
+<pre><code class="bash">conda activate demo
+</code></pre>
+<p>（3）  安装相应的包，输入：</p>
+<pre><code class="bash">pip install 包名
+</code></pre>
+<h1 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h1><h2 id="1-PyCharm字体大小，主题设置"><a href="#1-PyCharm字体大小，主题设置" class="headerlink" title="1.   PyCharm字体大小，主题设置"></a>1.   PyCharm字体大小，主题设置</h2><p>（1）调节主题颜色</p>
+<p>在PyCharm界面依次选择File &gt;&gt; Settings &gt;&gt; Editor &gt;&gt; Color Scheme</p>
+<p><img src="/images/python/50.png" alt="在这里插入图片描述"></p>
+<p>（2）调节字体大小</p>
+<p>在PyCharm界面依次选择File &gt;&gt; Settings &gt;&gt; Editor &gt;&gt; General &gt;&gt; Font</p>
+<p><img src="/images/python/51.png" alt="在这里插入图片描述"></p>
+<h2 id="2-Anaconda常用命令"><a href="#2-Anaconda常用命令" class="headerlink" title="2.   Anaconda常用命令"></a>2.   Anaconda常用命令</h2><pre><code class="bash">conda create -n demo python=3.8	          创建一个名字为demo的虚拟环境，python版本为3.8
+conda info -e			          查看虚拟环境列表
+conda activate demo			  Windows系统激活虚拟环境demo
+source activate demo              	  Mac &amp; Linux 系统激活虚拟环境demo
+conda install numpy 		      	  使用conda安装numpy包
+conda install numpy==1.11.0 	   	  使用conda安装版本指定为1.11.0的numpy包
+conda uninstall numpy 		          使用conda卸载numpy包
+conda list				  查看已安装包列表
+conda remove --name demo –all     	  删除demo虚拟环境
+pip list 				  查看已安装包列表
+pip install numpy			  使用pip安装numpy包
+pip install numpy==1.11.0 		  使用pip安装版本指定为1.11.0的numpy包
+pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple        使用pip清华镜像源安装numpy包
+pip uninstall numpy			  使用pip卸载numpy包
+</code></pre>
+<p>注：安装包时，可优先选择使用pip安装，若报错再选择conda安装。两者功能相同，conda权限更高，对版本要求更严格，会安装更多冗余的包。</p>
+<p>清华源为国内镜像源，下载速度相比国外源快，相似的国内源还有以下：</p>
+<p>阿里云   <a target="_blank" rel="noopener" href="http://mirrors.aliyun.com/pypi/simple">http://mirrors.aliyun.com/pypi/simple/</a></p>
+<p>中国科技大学   <a target="_blank" rel="noopener" href="https://pypi.mirrors.ustc.edu.cn/simple">https://pypi.mirrors.ustc.edu.cn/simple/</a></p>
+<p>豆瓣       <a target="_blank" rel="noopener" href="http://pypi.douban.com/simple">http://pypi.douban.com/simple/</a></p>
+<p>清华大学     <a target="_blank" rel="noopener" href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple/</a></p>
+<p>中国科学技术大学 <a target="_blank" rel="noopener" href="http://pypi.mirrors.ustc.edu.cn/simple">http://pypi.mirrors.ustc.edu.cn/simple/</a></p>
+
+    </div>
+    
+</div>
+                         
+<footer id="footer">
+    <div class="footer-wrap">
+        <div>
+            © 2022 - 2024 Lining&#39;s Blog
+            <span class="footer-icon">
+                <i class="fa-solid fa-font-awesome fa-fw"></i>
+            </span>
+            @Lining
+        </div>
+        <div></div>
+
+        
+        <div>
+            备案号：<a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">
+                陕ICP备2023009770号
+            </a>
+        </div>
+        
+    </div>
+</footer>
+                    </div>
+                </div>
+            </transition>
+            <div id="img_show">
+                <img id="img_content" alt="img_show">
+            </div>
+        </div>
+        <script src="https://cdn.staticfile.org/highlight.js/11.5.1/highlight.min.js"></script>
+        <script src="/js/particlex.js"></script>
+        <script src="/js/showimg.js"></script>
+        
+
+		<canvas
+			id="fireworks"
+			style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 32767"
+		></canvas>
+		<script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
+		<script src="/js/fireworks.min.js"></script>
+		<canvas
+			id="background"
+			style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: -1"
+		></canvas>
+		<script src="/js/background.min.js"></script>
+		<canvas id="digitalrain"
+		style="position: fixed; right: 0px; bottom: 0px; min-width: 100%; min-height: 100%; height: auto; width: auto; z-index: -1"
+		></canvas>
+		<script src="/js/digitalrain.js"></script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":null,"use":"live2d-widget-model-hijiki","display":null,"position":"right","width":150,"height":300,"mobile":null,"show":false,"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>

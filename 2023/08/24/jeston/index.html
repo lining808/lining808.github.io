@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <title>Jetson Nano 系统安装及环境配置 | Lining&#39;s Blog</title>
+        <meta name="author" content="Lining">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="icon" href="tou.png">
+        <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
+        <script src="https://cdn.staticfile.org/font-awesome/6.1.1/js/all.min.js"></script>
+        
+        <link rel="stylesheet" href="/css/fonts.min.css">
+        <link rel="stylesheet" href="/css/particlex.css">
+        
+        <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
+    <meta name="generator" content="Hexo 6.3.0"></head>
+    <body>
+        <div id="loading" style="height:100vh;width:100vw;position:fixed;display:flex;z-index:200;justify-content:space-between;background:#fff;transition:opacity 0.3s ease-out"><div style="position:fixed;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center"><div id="loadcontent" style="width:50vmin;height:50vmin;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px #a3ddfb;text-align:center"><div><h2>LOADING...</h2><p style="word-break:keep-all">加载过慢请开启缓存(浏览器默认开启)</p><div><img alt="loading" src="/loading.gif"></div></div></div></div></div>
+        <div id="layout">
+            <i data-fa-symbol="calendar-solid" class="fa-solid fa-calendar fa-fw"></i>
+            <i data-fa-symbol="bookmark-solid" class="fa-solid fa-bookmark fa-fw"></i>
+            <i data-fa-symbol="tags-solid" class="fa-solid fa-tags fa-fw"></i>
+            <transition name="into">
+                <div v-show="show_page" style="display: -not-none">
+                    <div id="menu_show">
+                         
+<nav id="menu">
+    <div class="desktop-menu">
+        <a href="/">
+            <span class="title">Lining's Blog</span>
+        </a>
+        
+        <a href="/">
+            <i class="fa-solid fa-house fa-fw"></i>
+            <span>&ensp;主页</span>
+        </a>
+        
+        <a href="/archives">
+            <i class="fa-solid fa-box-archive fa-fw"></i>
+            <span>&ensp;归档</span>
+        </a>
+        
+        <a href="/categories">
+            <i class="fa-solid fa-bookmark fa-fw"></i>
+            <span>&ensp;分类</span>
+        </a>
+        
+        <a href="/tags">
+            <i class="fa-solid fa-tags fa-fw"></i>
+            <span>&ensp;标签</span>
+        </a>
+        
+        <a href="/about">
+            <i class="fa-solid fa-id-card fa-fw"></i>
+            <span>&ensp;关于</span>
+        </a>
+        
+    </div>
+    <div :class="'phone-menu ' + menu_show" id="phone-menu">
+        <div class="curtain" @click="menu_show = !menu_show" v-show="menu_show"></div>
+        <div :class="'title'" @click="menu_show = !menu_show">
+            <i class="fa-solid fa-bars fa-fw"></i>
+            <span>&emsp;Lining's Blog</span>
+        </div>
+        <transition name="slide">
+        <div class="items" v-show="menu_show">
+            
+            <a href="/">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-house fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">主页</div>
+                </div>
+            </a>
+            
+            <a href="/archives">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-box-archive fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">归档</div>
+                </div>
+            </a>
+            
+            <a href="/categories">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-bookmark fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">分类</div>
+                </div>
+            </a>
+            
+            <a href="/tags">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-tags fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">标签</div>
+                </div>
+            </a>
+            
+            <a href="/about">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-id-card fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">关于</div>
+                </div>
+            </a>
+            
+        </div>
+        </transition>
+    </div>
+</nav>
+                    </div>
+                    <div id="main">
+                        
+<div class="article">
+    <div>
+        <h1>Jetson Nano 系统安装及环境配置 </h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
+            </span>
+            2023/8/24
+        </span>
+        
+        <span class="category">
+            <a href="/categories/教程/">
+                <span class="icon">
+                    <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
+                </span>
+                教程
+            </a>
+        </span>
+        
+        
+        <span class="tags">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/Jetson/" style="color: #00a596">
+                    Jetson
+                </a>
+            </span>
+            
+        </span>
+        
+	<!-- 开始添加字数统计-->
+	
+	    	<div style="margin-top:10px;">
+	    <span class="post-time">
+	      <span class="post-meta-item-icon">
+	        <i class="fa-solid fa-keyboard"></i>
+	        <span class="post-meta-item-text">  &nbsp;字数统计:&nbsp;</span>
+	        <!-- 安装插件npm install hexo-wordcount --save -->
+	        <span class="post-count">1.6k字</span>
+	      </span>
+	    </span>
+	
+	    <span class="post-time">
+	      &nbsp;&nbsp;
+	      <span class="post-meta-item-icon">
+	        <i class="fa-solid fa-clock"></i>
+	        <span class="post-meta-item-text">  &nbsp;阅读时长:&nbsp;</span>
+	        <span class="post-count">7分钟</span>
+	      </span>
+	    </span>
+
+	    <span class="post-time">
+		&nbsp;&nbsp;
+		
+    		    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+		    <i class="fa-solid fa-eye"></i>
+    		    <span id="busuanzi_container_site_pv">&nbsp;&nbsp;浏览量:&nbsp;<span id="busuanzi_value_page_pv"></span>次</span>
+	        
+	    </span>
+	</div>
+
+	
+	<!-- 添加完成 -->
+    </div>
+    <div class="content" v-pre>
+        <h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>本教程详细介绍了Jetson Nano系统的安装烧录和深度学习环境配置。</p>
+<h1 id="VMware16虚拟机安装"><a href="#VMware16虚拟机安装" class="headerlink" title="VMware16虚拟机安装"></a>VMware16虚拟机安装</h1><p>SDKManager基于Ubuntu完成JetsonNano镜像系统的烧录。因此需要通过VMware虚拟机安装Ubuntu系统。注意硬盘尽可能分配大一些，最小80GB。虚拟机安装Ubuntu系统的过程不再赘述。</p>
+<span id="more"></span>
+<h1 id="SDKManager系统烧录"><a href="#SDKManager系统烧录" class="headerlink" title="SDKManager系统烧录"></a>SDKManager系统烧录</h1><p>SDK Manager下载：<a target="_blank" rel="noopener" href="https://developer.nvidia.com/drive/sdk-manager">NVIDIA SDK Manager</a><br><img src="/images/nano/1.png" alt="在这里插入图片描述"><br>1.安装SDKManager</p>
+<p>直接点击安装</p>
+<p><img src="/images/nano/2.png" alt="在这里插入图片描述"></p>
+<p>直接安装不了可以选择执行以下命令安装，可能需要换apt源</p>
+<pre><code class="bash">sudo apt-get -f install
+sudo dpkg -i sdkmanager_1.9.0-10816_amd64.deb
+</code></pre>
+<p>2.将JetsonNano与PC连接起来,选择连接虚拟机（FC_REC脚接GND）<br><img src="/images/nano/3.png" alt="在这里插入图片描述"><br><img src="/images/nano/4.png" alt="在这里插入图片描述"></p>
+<p>3.打开SDKManager</p>
+<p>需要NVIDIA账号，自行注册</p>
+<p><img src="/images/nano/5.png" alt="在这里插入图片描述"></p>
+<p>4.可能会有版本更新，确认更新</p>
+<p>5.SDK自动检测板载型号，勾选如图所示，Host不需要勾选</p>
+<p><img src="/images/nano/6.png" alt="在这里插入图片描述"></p>
+<p>7.Jetson OS和Jetson SDK都选择安装，如果虚拟机磁盘空间不足，则只能选择安装Jetson OS系统<br>Download now Install later建议勾选，否则极有可能下载失败。<br><img src="/images/nano/7.png" alt="在这里插入图片描述"><br><img src="/images/nano/8.png" alt="在这里插入图片描述"><br>8.下载完成后在&#x2F;home路径下发现以下两个文件，下载完成。</p>
+<p>9.重新打开SDKManager，选择离线安装</p>
+<p>配置用户名和密码</p>
+<p><img src="/images/nano/9.png" alt="在这里插入图片描述"></p>
+<p>10.等待安装完成。</p>
+<h1 id="将系统迁移至固态硬盘"><a href="#将系统迁移至固态硬盘" class="headerlink" title="将系统迁移至固态硬盘"></a>将系统迁移至固态硬盘</h1><p>1.格式化您已安装的 SSD</p>
+<p>安装您的和SSD并启动，然后打开菜单并进行搜索。disk启动磁盘应用程序，您将看到此。<br><img src="/images/nano/10.png" alt="在这里插入图片描述"><br>点击右上角三个点点。选择 Format Disk<br><img src="/images/nano/11.png" alt="在这里插入图片描述"><br>现在让我们选择主分区的大小。我建议你使用16 GB交换文件。<br><img src="/images/nano/12.png" alt="在这里插入图片描述"><br>给卷起个名字。然后单击。然后你会看到这个未来。Create<br><img src="/images/nano/13.png" alt="在这里插入图片描述"><br>现在，您已成功创建卷。</p>
+<p>2.将根源从SD卡复制到SSD</p>
+<p>首先，复制该项目。</p>
+<pre><code class="bash">git clone https://github.com/jetsonhacks/rootOnNVMe.git
+cd rootOnNVMe
+</code></pre>
+<p>然后将根源文件复制到您的SSD</p>
+<pre><code class="bash">./copy-rootfs-ssd.sh
+</code></pre>
+<p>3.启用从 SSD 启动，运行以使服务生效。</p>
+<pre><code class="bash">./setup-service.sh
+</code></pre>
+<p>4.重启系统</p>
+<pre><code class="bash">reboot
+</code></pre>
+<p>切记！ 就算root移植到固态中 也不要删除emmc中的root 因为系统还是要经过emmc引导到SSD上!!!</p>
+<h1 id="配置深度学习环境"><a href="#配置深度学习环境" class="headerlink" title="配置深度学习环境"></a>配置深度学习环境</h1><p>如果在刻录步骤安装好了，那么这里就不需要安装了。</p>
+<p>1.CUDA<br>这里有两种方法。第一种通过bootFromExternalStorage安装。第二种使用sdk-manager安装。</p>
+<p>方法一：bootFromExternalStorage安装</p>
+<p>从Github获取bootFromExternalStorage，执行命令：</p>
+<pre><code class="bash">git clone https://github.com/jetsonhacks/bootFromExternalStorage.git
+</code></pre>
+<p>给bootFromExternalStorage赋权限</p>
+<pre><code class="bash">sudo chmod -R 777 bootFromExternalStorage
+</code></pre>
+<p>运行脚本</p>
+<pre><code class="bash">cd bootFromExternalStorage
+./install_jetson_default_packages.sh
+</code></pre>
+<p>然后就开始下载jetpack的默认配置环境，里面包括CUDA和cuDNN等。</p>
+<p>方法二：sdk-manager安装</p>
+<p>这个安装可前面安装JetPack系统操作类似，然后将板子上Micro USB通过数据线和电脑链接。<br><img src="/images/nano/14.png" alt="在这里插入图片描述"></p>
+<p>然后将Jetson SDk全选，然后转到第三步，下载这些软件并安装。等待完成后就可以配置CUDA的环境变量了。<br>配置CUDA环境变量</p>
+<p>安装完成后，输入ncvv -V,发现并不能读取CUDA的版本，这是因为环境变量还没有配置</p>
+<p>输入vim ~&#x2F;.bashrc命令打开文件，在文件结尾输入以下语句，保存。</p>
+<pre><code class="bash">export PATH=/usr/local/cuda-10.2/bin$&#123;PATH:+:$&#123;PATH&#125;&#125;
+export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64$&#123;LD_LIBRARY_PATH:+:$&#123;LD_LIBRARY_PATH&#125;&#125;
+</code></pre>
+<p>更新环境变量配置</p>
+<pre><code class="bash">source ~/.bashrc
+</code></pre>
+<p>然后再输入nvcc -V，就可以看到CUDA的版本信息了。</p>
+<p>2.cuDNN</p>
+<p>虽然安装了cuDNN，但没有将对应的头文件、库文件放到cuda目录。cuDNN的头文件在：&#x2F;usr&#x2F;include，库文件位于：&#x2F;usr&#x2F;lib&#x2F;aarch64-linux-gnu。将头文件与库文件复制到cuda目录下：</p>
+<pre><code class="bash">cd /usr/include &amp;&amp; sudo cp cudnn.h /usr/local/cuda/include
+cd /usr/lib/aarch64-linux-gnu &amp;&amp; sudo cp libcudnn* /usr/local/cuda/lib64
+</code></pre>
+<p>修改文件权限，修改复制完的头文件与库文件的权限，所有用户都可读，可写，可执行：</p>
+<pre><code class="bash">sudo chmod 777 /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+</code></pre>
+<p>重新链接</p>
+<pre><code class="bash">cd /usr/local/cuda/lib64
+sudo ln -sf libcudnn.so.8.4.0 libcudnn.so.8
+sudo ln -sf libcudnn_ops_train.so.8.4.0 libcudnn_ops_train.so.8
+sudo ln -sf libcudnn_ops_infer.so.8.4.0 libcudnn_ops_infer.so.8
+sudo ln -sf libcudnn_adv_infer.so.8.4.0 libcudnn_adv_infer.so.8
+sudo ln -sf libcudnn_cnn_infer.so.8.4.0 libcudnn_cnn_infer.so.8
+sudo ln -sf libcudnn_cnn_train.so.8.4.0 libcudnn_cnn_train.so.8
+sudo ln -sf libcudnn_adv_train.so.8.4.0 libcudnn_adv_train.so.8
+sudo ldconfig
+</code></pre>
+<p>测试cuDNN</p>
+<pre><code class="bash">sudo cp -r /usr/src/cudnn_samples_v8/ ~/
+cd ~/cudnn_samples_v8/mnistCUDNN
+sudo chmod 777 ~/cudnn_samples_v8
+sudo make clean &amp;&amp; sudo make
+./mnistCUDNN
+</code></pre>
+<p>如果配置成功 测试完成后会显示：“Test passed!”。</p>
+<p>3.miniconda</p>
+<pre><code class="bash">wget https://mirrors.bfsu.edu.cn/anaconda/miniconda/Miniconda3-py38_4.12.0-Linux-aarch64.sh
+sudo sh Miniconda3-py38_4.12.0-Linux-aarch64.sh
+</code></pre>
+<p>安装完后可能需要在.bashrc配置环境变量，</p>
+<pre><code class="bash">sudo vim ~/.bashrc
+# &gt;&gt;&gt; conda initialize &gt;&gt;&gt;
+# !! Contents within this block are managed by &#39;conda init&#39; !!
+__conda_setup=&quot;$(&#39;/home/dell/miniconda3/bin/conda&#39; &#39;shell.bash&#39; &#39;hook&#39; 2&gt; /dev/null)&quot;
+if [ $? -eq 0 ]; then
+    eval &quot;$__conda_setup&quot;
+else
+    if [ -f &quot;/home/dell/miniconda3/etc/profile.d/conda.sh&quot; ]; then
+        . &quot;/home/dell/miniconda3/etc/profile.d/conda.sh&quot;
+    else
+        export PATH=&quot;/home/dell/miniconda3/bin:$PATH&quot;
+    fi
+fi
+unset __conda_setup
+# &lt;&lt;&lt; conda initialize &lt;&lt;&lt;
+source ~/.bashrc
+</code></pre>
+<p>4.pytorch</p>
+<p>pytorch版本不能随意安装，必须安装英伟达编译的好的库文件，<br>链接：<a target="_blank" rel="noopener" href="https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048">PyTorch for Jetson</a></p>
+<p>选择对应jetpack版本的pytorch文件。<br><img src="/images/nano/15.png" alt="在这里插入图片描述"><br>我的是5.0.2的，所以可以选择1.12.0版本的pytorch。点击链接然后下载。</p>
+<p>等待下载完成后，执行</p>
+<pre><code class="bash">pip install torch-1.12.0a0+2c916ef.nv22.3-cp38-cp38-linux_aarch64.whl
+</code></pre>
+<p>安装torchvision<br>执行命令：</p>
+<pre><code class="bash">sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev
+</code></pre>
+<p>下图是vision torchvision和pytorch的对应表<br><img src="/images/nano/16.png" alt="在这里插入图片描述"><br>v1.12.0版本的pytorch对应v0.13.0版本的vision torchvision，所以执行命令：</p>
+<pre><code class="bash">git clone --branch  v0.13.0 https://github.com/pytorch/vision torchvision
+</code></pre>
+<p>获取vision torchvision，然后执行下面的命令安装</p>
+<pre><code class="bash">python setup.py install --user
+</code></pre>
+<p>验证安装</p>
+<pre><code class="python">import torch
+print(torch.__version__)
+print(&#39;CUDA available: &#39; + str(torch.cuda.is_available()))
+print(&#39;cuDNN version: &#39; + str(torch.backends.cudnn.version()))
+</code></pre>
+<p>报错：ImportError: libopenblas.so.0: cannot open shared object file: No such file or directory</p>
+<pre><code class="bash">sudo apt-get install python3-pip libopenblas-base libopenmpi-dev
+</code></pre>
+<p>5.jtop</p>
+<pre><code class="bash"># 安装pip3
+sudo apt install python3-pip
+# 安装Jtop工具
+sudo -H pip3 install -U jetson-stats
+# 启动jtop
+sudo jtop
+</code></pre>
+<p><img src="/images/nano/17.png" alt="在这里插入图片描述"></p>
+<p>可以看到 CUDA、cdDNN、TensorRT的版本。</p>
+<p>TensorRT 状态查询</p>
+<pre><code class="bash">dpkg -l | grep nvinfer
+</code></pre>
+<p>6.ONNX</p>
+<pre><code class="bash">sudo apt-get install protobuf-compiler libprotoc-dev
+pip install onnx
+</code></pre>
+
+    </div>
+    
+</div>
+                         
+<footer id="footer">
+    <div class="footer-wrap">
+        <div>
+            © 2022 - 2024 Lining&#39;s Blog
+            <span class="footer-icon">
+                <i class="fa-solid fa-font-awesome fa-fw"></i>
+            </span>
+            @Lining
+        </div>
+        <div></div>
+
+        
+        <div>
+            备案号：<a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">
+                陕ICP备2023009770号
+            </a>
+        </div>
+        
+    </div>
+</footer>
+                    </div>
+                </div>
+            </transition>
+            <div id="img_show">
+                <img id="img_content" alt="img_show">
+            </div>
+        </div>
+        <script src="https://cdn.staticfile.org/highlight.js/11.5.1/highlight.min.js"></script>
+        <script src="/js/particlex.js"></script>
+        <script src="/js/showimg.js"></script>
+        
+
+		<canvas
+			id="fireworks"
+			style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 32767"
+		></canvas>
+		<script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
+		<script src="/js/fireworks.min.js"></script>
+		<canvas
+			id="background"
+			style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: -1"
+		></canvas>
+		<script src="/js/background.min.js"></script>
+		<canvas id="digitalrain"
+		style="position: fixed; right: 0px; bottom: 0px; min-width: 100%; min-height: 100%; height: auto; width: auto; z-index: -1"
+		></canvas>
+		<script src="/js/digitalrain.js"></script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":null,"use":"live2d-widget-model-hijiki","display":null,"position":"right","width":150,"height":300,"mobile":null,"show":false,"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
